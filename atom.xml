@@ -1,27 +1,288 @@
----
-layout: null
-title : Atom Feed
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>{{ site.title }}</title>
- <link href="http://{{ site.domain }}/atom.xml" rel="self"/>
- <link href="http://{{ site.domain }}"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <title></title>
+ <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
+ <link href="http://https://wangfan0840.github.io/"/>
+ <updated>2018-05-15T20:21:15+08:00</updated>
  <author>
-   <name>{{ site.author }}</name>
-   <email>{{ site.email }}</email>
+   <name>wangfan0840</name>
+   <email>wangfan0840#163.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://{{ site.domain }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>开始鼓捣自己的博客了，算是记录自己的一些成长了吧!</title>
+   <link href="http://https://wangfan0840.github.io//web/vevan-start.html"/>
+   <updated>2018-05-03T08:01:01+08:00</updated>
+   <id>/web/vevan-start</id>
+   <content type="html">&lt;p&gt;开始鼓捣自己的博客了，算是记录自己的一些成长了吧!&lt;!-- more --&gt;&lt;br /&gt;
+##告诫自己
+    以后每天记录一点点信息！
+    脚踏实地，一步一个脚印！
+    每天都要比前一天强一些！&lt;/p&gt;
+
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>python 相关</title>
+   <link href="http://https://wangfan0840.github.io//python/python-start.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/python/python-start</id>
+   <content type="html">&lt;p&gt;#Python生成requirements.txt&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip freeze &amp;gt; requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hadoop 命令</title>
+   <link href="http://https://wangfan0840.github.io//hadoop/hive-start.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/hadoop/hive-start</id>
+   <content type="html">&lt;h2 id=&quot;hadoop常用命令&quot;&gt;Hadoop常用命令&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;
+    &lt;h2 id=&quot;1hadoop-fs-hdfs-dfs--文件操作&quot;&gt;1.hadoop fs （hdfs dfs）  文件操作&lt;/h2&gt;
+    &lt;h3 id=&quot;1ls-显示目录&quot;&gt;1）ls 显示目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -ls [uri形式目录]&lt;/p&gt;
+    &lt;h3 id=&quot;2-cat-查看文件内容&quot;&gt;2） cat 查看文件内容&lt;/h3&gt;
+    &lt;p&gt;hadoop fs cat URI [URI …]&lt;/p&gt;
+    &lt;h3 id=&quot;3-mkdir-创建目录&quot;&gt;3） mkdir 创建目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -mkdir [uri形式目录]&lt;/p&gt;
+    &lt;h2 id=&quot;2hdfs-dfsadmin-管理命令&quot;&gt;2、hdfs dfsadmin 管理命令&lt;/h2&gt;
+    &lt;h3 id=&quot;1-report&quot;&gt;1）-report&lt;/h3&gt;
+    &lt;p&gt;hdfs dfsadmin -report&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##hive删除id为2的记录
+ insert overwrite table A select * from A where id !=2;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sqoop详解</title>
+   <link href="http://https://wangfan0840.github.io//sqoop/sqoop-start.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/sqoop/sqoop-start</id>
+   <content type="html">&lt;h2 id=&quot;sqoop详解&quot;&gt;Sqoop详解&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1查询mysql中的数据库&quot;&gt;1.查询mysql中的数据库&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqoop list-databases --connect jdbc:mysql://localhost:3306/cdb  --username root --password root  ## 2、连接mysql并列出数据库中的表
+sqoop list-tables --connect jdbc:mysql://localhost:3306/cdb --username root --password root 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>mac 命令</title>
+   <link href="http://https://wangfan0840.github.io//mac/mac-start.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/mac/mac-start</id>
+   <content type="html">&lt;p&gt;#Mac键盘符号和修饰键说明
+	⌘ Command
+	⇧ Shift
+	⌥ Option
+	⌃ Control
+	↩︎ Return/Enter
+	⌫ Delete
+	⌦ 向前删除键（Fn+Delete）
+	↑ 上箭头
+	↓ 下箭头
+	← 左箭头
+	→ 右箭头
+	⇞ Page Up（Fn+↑）
+	⇟ Page Down（Fn+↓）
+	Home Fn + ←
+	End Fn + →
+	⇥ 右制表符（Tab键）
+	⇤ 左制表符（Shift+Tab）
+	⎋ Escape (Esc)&lt;/p&gt;
+
+&lt;p&gt;#视图切换
+	Comand + 数字 视图区域对应的数字 各视图区域的切换 &lt;!-- more --&gt; 
+	Comand + e 列出最近查看的文件列表 
+	Shift + Comand + e 最近修改文件列表&lt;/p&gt;
+
+&lt;p&gt;#重构
+	Comand+Shift+Alt+T(Refactor This) 整体快捷键 
+	Shift+F6 改名字 
+	Command+F6 可修改参数（实现类的参数能一起修改）&lt;/p&gt;
+
+&lt;p&gt;#编辑&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;⌃Space 基本的代码补全（补全任何类、方法、变量）
+⌃⇧Space 智能代码补全（过滤器方法列表和变量的预期类型）
+⌘⇧↩ 自动结束代码，行末自动添加分号
+⌘P 显示方法的参数信息
+⌃J, Mid. button click 快速查看文档
+⇧F1 查看外部文档（在某些代码上会触发打开浏览器显示相关文档）
+⌘+鼠标放在代码上 显示代码简要信息
+⌘F1 在错误或警告处显示具体描述信息
+⌘N, ⌃↩, ⌃N 生成代码（getter、setter、构造函数、hashCode/equals,toString）
+⌃O 覆盖方法（重写父类方法）
+⌃I 实现方法（实现接口中的方法）
+⌘⌥T 包围代码（使用if..else, try..catch, for, synchronized等包围选中的代码）
+⌘/ 注释/取消注释与行注释
+⌘⌥/ 注释/取消注释与块注释
+⌥↑ 连续选中代码块
+⌥↓ 减少当前选中的代码块
+⌃⇧Q 显示上下文信息
+⌥↩ 显示意向动作和快速修复代码
+⌘⌥L 格式化代码
+⌃⌥O 优化import
+⌃⌥I 自动缩进线
+⇥ / ⇧⇥ 缩进代码 / 反缩进代码
+⌘X 剪切当前行或选定的块到剪贴板
+⌘C 复制当前行或选定的块到剪贴板
+⌘V 从剪贴板粘贴
+⌘⇧V 从最近的缓冲区粘贴
+⌘D 复制当前行或选定的块
+⌘⌫ 删除当前行或选定的块的行
+⌃⇧J 智能的将代码拼接成一行
+⌘↩ 智能的拆分拼接的行
+⇧↩ 开始新的一行
+⌘⇧U 大小写切换
+⌘⇧] / ⌘⇧[ 选择直到代码块结束/开始
+⌥⌦ 删除到单词的末尾（⌦键为Fn+Delete）
+⌥⌫ 删除到单词的开头
+⌘+ / ⌘- 展开 / 折叠代码块
+⌘⇧+ 展开所以代码块
+⌘⇧- 折叠所有代码块
+⌘W 关闭活动的编辑器选项卡
+Command + j 调出快捷 
+Command+W 选你所想 
+Option+左光标/右光标 可移动到前后的单词 
+alt + enter 调出IDEA对出错点的提示处理方法，熟练使用可使你写代码的速度提升5倍 
+Command+D 复制黏贴当前行到下一行 
+Shift+Command+V 调出最近复制的内容列表 
+Command + / 注释/取消注释 
+Command + C|V|X 
+F2/Shift+F2 跳转到有错误的代码
+	
+Command+Shift+Enter 
+神器，补全当前行，最常用的场景时补全当前行后的；号，并将光标定位到下一行
+	
+Ctrl+N 
+在文件结构上使用，可新建类等。在代码编辑窗口使用，可自动生成getter、setter方法，构造器，重写方法。
+	
+Command+o 重写方法 
+Command + I implement 方法 
+Shift + Command + L 格式化代码 
+Shift + Command + up/down 将当前代码段上/下移 
+Shift + alt + up/down 将当前行上/下移 
+大小写转换 Command+Shift+U 
+Shift + alt+left/right 返回上次编辑的位置 
+Comand+Shift+F9 重新编译文件
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;#查找打开
+	Command+Shift+H 查找继承关系
+	Command+B： 
+	用在类名上–&amp;gt;找到用到该类的类 
+	用在方法上–&amp;gt;找到调用该类中的方法
+	Command+Alt+B： 
+	用在类名上–&amp;gt;找到对应类的实现类 
+	用在方法上–&amp;gt;找到实现类中的该方法
+	Comand+N 打开类 
+	Comand+Shift+N 打开文件 
+	在project中，按下ctrl + shift + f(r) 即是在当前目前下递归查找或替换,搜索出来后，要全部替换，按下alt + a 
+	Alt+F7 类或方法的使用 
+	Comand+F 查找文本出现的位置（F3/Shift+F3前后移动） 
+	Comand+R 替换搜索 
+	Shift+Shift searchEveryWhere搜索任何东西 
+	Comand+F12 查看当前类所有方法 
+	Comand+G 跳转到某行 
+	Comand+{/} 跳转到光标最近的括号中&lt;/p&gt;
+
+&lt;p&gt;#运行程序与debug 
+	Crtl+Shift+F10 运行 
+	Crtl+Shift+F9 调试 
+	Comand+F2 停止 
+	F7 单步进入 
+	F9 跳过本次debug 
+	F8 单步跳过&lt;/p&gt;
+
+&lt;p&gt;#其他常用快捷键
+	cmd + , 调出setting界面 
+	cmd + ; 调出项目setting界面 
+	cmd + f4 关闭当前界面&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hadoop 命令</title>
+   <link href="http://https://wangfan0840.github.io//hadoop/hadoop-start2.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/hadoop/hadoop-start2</id>
+   <content type="html">&lt;h2 id=&quot;hadoop常用命令&quot;&gt;Hadoop常用命令&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;
+    &lt;h2 id=&quot;1hadoop-fs-hdfs-dfs--文件操作&quot;&gt;1.hadoop fs （hdfs dfs）  文件操作&lt;/h2&gt;
+    &lt;h3 id=&quot;1ls-显示目录&quot;&gt;1）ls 显示目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -ls [uri形式目录]&lt;/p&gt;
+    &lt;h3 id=&quot;2-cat-查看文件内容&quot;&gt;2） cat 查看文件内容&lt;/h3&gt;
+    &lt;p&gt;hadoop fs cat URI [URI …]&lt;/p&gt;
+    &lt;h3 id=&quot;3-mkdir-创建目录&quot;&gt;3） mkdir 创建目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -mkdir [uri形式目录]&lt;/p&gt;
+    &lt;h2 id=&quot;2hdfs-dfsadmin-管理命令&quot;&gt;2、hdfs dfsadmin 管理命令&lt;/h2&gt;
+    &lt;h3 id=&quot;1-report&quot;&gt;1）-report&lt;/h3&gt;
+    &lt;p&gt;hdfs dfsadmin -report&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hadoop 命令</title>
+   <link href="http://https://wangfan0840.github.io//hadoop/hadoop-start1.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/hadoop/hadoop-start1</id>
+   <content type="html">&lt;h2 id=&quot;hadoop常用命令&quot;&gt;Hadoop常用命令&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;
+    &lt;h2 id=&quot;1hadoop-fs-hdfs-dfs--文件操作&quot;&gt;1.hadoop fs （hdfs dfs）  文件操作&lt;/h2&gt;
+    &lt;h3 id=&quot;1ls-显示目录&quot;&gt;1）ls 显示目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -ls [uri形式目录]&lt;/p&gt;
+    &lt;h3 id=&quot;2-cat-查看文件内容&quot;&gt;2） cat 查看文件内容&lt;/h3&gt;
+    &lt;p&gt;hadoop fs cat URI [URI …]&lt;/p&gt;
+    &lt;h3 id=&quot;3-mkdir-创建目录&quot;&gt;3） mkdir 创建目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -mkdir [uri形式目录]&lt;/p&gt;
+    &lt;h2 id=&quot;2hdfs-dfsadmin-管理命令&quot;&gt;2、hdfs dfsadmin 管理命令&lt;/h2&gt;
+    &lt;h3 id=&quot;1-report&quot;&gt;1）-report&lt;/h3&gt;
+    &lt;p&gt;hdfs dfsadmin -report&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hadoop 命令</title>
+   <link href="http://https://wangfan0840.github.io//hadoop/hadoop-start.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/hadoop/hadoop-start</id>
+   <content type="html">&lt;h2 id=&quot;hadoop常用命令&quot;&gt;Hadoop常用命令&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;
+    &lt;h2 id=&quot;1hadoop-fs-hdfs-dfs--文件操作&quot;&gt;1.hadoop fs （hdfs dfs）  文件操作&lt;/h2&gt;
+    &lt;h3 id=&quot;1ls-显示目录&quot;&gt;1）ls 显示目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -ls [uri形式目录]&lt;/p&gt;
+    &lt;h3 id=&quot;2-cat-查看文件内容&quot;&gt;2） cat 查看文件内容&lt;/h3&gt;
+    &lt;p&gt;hadoop fs cat URI [URI …]&lt;/p&gt;
+    &lt;h3 id=&quot;3-mkdir-创建目录&quot;&gt;3） mkdir 创建目录&lt;/h3&gt;
+    &lt;p&gt;hadoop fs -mkdir [uri形式目录]&lt;/p&gt;
+    &lt;h2 id=&quot;2hdfs-dfsadmin-管理命令&quot;&gt;2、hdfs dfsadmin 管理命令&lt;/h2&gt;
+    &lt;h3 id=&quot;1-report&quot;&gt;1）-report&lt;/h3&gt;
+    &lt;p&gt;hdfs dfsadmin -report&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
  
 </feed>

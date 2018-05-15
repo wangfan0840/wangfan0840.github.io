@@ -1,70 +1,535 @@
----
-layout: index
-title: "Android/iOS/React Native/Web相关"
-description: "探索尝试，发现未知可能！记录我学习使用Android/iOS开发、React Native、VPS、Linux、Web建站、Jekyll等技术过程中遇到的问题/解决办法，及一些个人心得总结。"
----
-{% if page.paginator %}
-  {% assign paginator = page.paginator %}
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="探索尝试，发现未知可能！记录我学习使用Android/iOS开发、React Native、VPS、Linux、Web建站、Jekyll等技术过程中遇到的问题/解决办法，及一些个人心得总结。 - vevan's Blog" />
+    <title>Android/iOS/React Native/Web相关 - vevan's Blog</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link href="/css/blog.css" rel="stylesheet"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+    queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://
+    -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+      </script>
+    <![endif]-->
+        <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"> </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/tongji.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8398931108301601",
+            enable_page_level_ads: true
+        });
+    </script>
+  </head>
+  
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand" href="/">
+            首页
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          		<ul class="nav navbar-nav">
+			
+				<li>
+				  <a href="/sqoop/index.html">
+					Sqoop相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/hadoop">
+					hadoop相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/mac">
+					mac相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/web">
+					Web相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/linux">
+					Linux相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/git">
+					git相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/other">
+					杂记
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/read">
+					书摘
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/about.html">
+					关于
+				  </a>
+				</li>
+			
+		</ul>  
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+          <!-- Navi -->
+          <div class="post_frame">
+            <div class="post_navi">
+              <a href="/">首页</a>&nbsp;>&nbsp;
+              <span class="post_navi_span">列表</span>
+            </div>
+            <div style="padding:10px">
+              
 
 <!-- ad -->
 
 <!-- Loop output paged posts -->
-{% for post in paginator.posts %}
+
 <h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
+  <a href="/web/vevan-start.html">
+    开始鼓捣自己的博客了，算是记录自己的一些成长了吧!
   </a> 
   <div class="post-date">
 	<span class="glyphicon glyphicon-time"></span>
-	{{ post.date | date:"%Y-%m-%d" }}
+	2018-05-03
   </div>
 </h2>
 <hr>
-{{ post.excerpt }}
-	<p><h3><a href="{{ post.url }}">阅读全文 &raquo;</a></h3></p>
+<p>开始鼓捣自己的博客了，算是记录自己的一些成长了吧!</p>
+
+
+	<p><h3><a href="/web/vevan-start.html">阅读全文 &raquo;</a></h3></p>
 <hr>
-{% endfor %}
+
+<h2>
+  <a href="/python/python-start.html">
+    python 相关
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<p>#Python生成requirements.txt</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip freeze &gt; requirements.txt
+</code></pre></div></div>
+
+
+	<p><h3><a href="/python/python-start.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/hadoop/hive-start.html">
+    Hadoop 命令
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<h2 id="hadoop常用命令">Hadoop常用命令</h2>
+<ul>
+  <li><strong>走自己的路，让别人无路可走！</strong>
+    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
+    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
+    <p>hadoop fs -ls [uri形式目录]</p>
+    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
+    <p>hadoop fs cat URI [URI …]</p>
+    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
+    <p>hadoop fs -mkdir [uri形式目录]</p>
+    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
+    <h3 id="1-report">1）-report</h3>
+    <p>hdfs dfsadmin -report</p>
+  </li>
+</ul>
+
+<p>##hive删除id为2的记录
+ insert overwrite table A select * from A where id !=2;</p>
+
+	<p><h3><a href="/hadoop/hive-start.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/sqoop/sqoop-start.html">
+    Sqoop详解
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<h2 id="sqoop详解">Sqoop详解</h2>
+<ul>
+  <li><strong>走自己的路，让别人无路可走！</strong></li>
+</ul>
+
+<h2 id="1查询mysql中的数据库">1.查询mysql中的数据库</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sqoop list-databases --connect jdbc:mysql://localhost:3306/cdb  --username root --password root  ## 2、连接mysql并列出数据库中的表
+sqoop list-tables --connect jdbc:mysql://localhost:3306/cdb --username root --password root 
+</code></pre></div></div>
+
+	<p><h3><a href="/sqoop/sqoop-start.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/mac/mac-start.html">
+    mac 命令
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<p>#Mac键盘符号和修饰键说明
+	⌘ Command
+	⇧ Shift
+	⌥ Option
+	⌃ Control
+	↩︎ Return/Enter
+	⌫ Delete
+	⌦ 向前删除键（Fn+Delete）
+	↑ 上箭头
+	↓ 下箭头
+	← 左箭头
+	→ 右箭头
+	⇞ Page Up（Fn+↑）
+	⇟ Page Down（Fn+↓）
+	Home Fn + ←
+	End Fn + →
+	⇥ 右制表符（Tab键）
+	⇤ 左制表符（Shift+Tab）
+	⎋ Escape (Esc)</p>
+
+<p>#视图切换
+	Comand + 数字 视图区域对应的数字 各视图区域的切换</p>
+
+
+	<p><h3><a href="/mac/mac-start.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/hadoop/hadoop-start2.html">
+    Hadoop 命令
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<h2 id="hadoop常用命令">Hadoop常用命令</h2>
+<ul>
+  <li><strong>走自己的路，让别人无路可走！</strong>
+    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
+    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
+    <p>hadoop fs -ls [uri形式目录]</p>
+    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
+    <p>hadoop fs cat URI [URI …]</p>
+    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
+    <p>hadoop fs -mkdir [uri形式目录]</p>
+    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
+    <h3 id="1-report">1）-report</h3>
+    <p>hdfs dfsadmin -report</p>
+  </li>
+</ul>
+
+	<p><h3><a href="/hadoop/hadoop-start2.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/hadoop/hadoop-start1.html">
+    Hadoop 命令
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<h2 id="hadoop常用命令">Hadoop常用命令</h2>
+<ul>
+  <li><strong>走自己的路，让别人无路可走！</strong>
+    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
+    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
+    <p>hadoop fs -ls [uri形式目录]</p>
+    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
+    <p>hadoop fs cat URI [URI …]</p>
+    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
+    <p>hadoop fs -mkdir [uri形式目录]</p>
+    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
+    <h3 id="1-report">1）-report</h3>
+    <p>hdfs dfsadmin -report</p>
+  </li>
+</ul>
+
+	<p><h3><a href="/hadoop/hadoop-start1.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/hadoop/hadoop-start.html">
+    Hadoop 命令
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-03
+  </div>
+</h2>
+<hr>
+<h2 id="hadoop常用命令">Hadoop常用命令</h2>
+<ul>
+  <li><strong>走自己的路，让别人无路可走！</strong>
+    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
+    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
+    <p>hadoop fs -ls [uri形式目录]</p>
+    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
+    <p>hadoop fs cat URI [URI …]</p>
+    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
+    <p>hadoop fs -mkdir [uri形式目录]</p>
+    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
+    <h3 id="1-report">1）-report</h3>
+    <p>hdfs dfsadmin -report</p>
+  </li>
+</ul>
+
+	<p><h3><a href="/hadoop/hadoop-start.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
 
 <!-- Pager indicator -->
 <div style="margin:0px auto;text-align: center">
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  {% if paginator.previous_page %}
-  <li>
-    <a href="{{ category_path | append : paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  </li>
-  {% else %}
-  <li>
-    <span>&laquo; Prev</span>
-  </li>
-  {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <li class="active">
-      <span>{{ page }}</span>
-    </li>
-    {% elsif page == 1 %}
-    <li>
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    </li>
-    {% else %}
-    <li>
-      <a href="{{ site.paginate_path | append : '.html' | prepend: site.baseurl | replace: ':num', page }}">{{ page }}</a>
-    </li>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-   <li>
-    <a href="{{ paginator.next_page_path | append : '.html' | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-   </li>
-  {% else %}
-  <li>
-    <span>Next &raquo;</span>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
 </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Side Widget Well -->
+          <div class="well">
+            <h4>
+              推荐链接
+            </h4>
+			      <div class="row">
+                        <div class="col-lg-12">
+              <ul class="list-unstyled">
+              <li>
+                <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=mlv9dicn&productCode=dmspre&utm_source=mlv9dicn" target="_blank" rel="nofollow">
+                  阿里云幸运券购买服务，享实惠多多！
+                </a>
+              </li>
+              <li>
+                <a href="https://www.namesilo.com/register.php?rid=caa2f82dc" target="_blank"  rel="nofollow">
+                  NameSillo买域名就送隐私保护，还不贵!
+                </a>
+              </li>	
+              <li>
+                <a href="https://www.linode.com/?r=6a1d2020e95d84a5d1e6706a659499b1cc0f28bd" target="_blank" rel="nofollow">
+                  Linode高性能VPS，5$/月起，新开通送20$。
+                </a>
+              </li>	
+              <li>
+                <a href="https://bwh1.net/aff.php?aff=16961" target="_blank" rel="nofollow">
+                  带ss的班瓦工VPS，2.99$/月或19.9$/年起。
+                </a>
+              </li>	
+              <li>
+                <a href="http://www.vultr.com/?ref=6879661" target="_blank" rel="nofollow">
+                  VPS新秀Vultr，2.5$/月起，值得一试！
+                </a>
+              </li>			
+            </ul>
+          </div>
+ 
+            </div>
+          </div>
+
+          <!-- Side Widget Well -->
+          <div class="well-ad">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BlogRightB -->
+<ins class="adsbygoogle"
+	 style="display:inline-block;width:336px;height:280px"
+	 data-ad-client="ca-pub-8398931108301601"
+	 data-ad-slot="4042604803"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+          </div>
+          
+          <!-- Blog Recent Well -->
+          <div class="well">
+            <h4>
+              最新文章
+            </h4>
+            <div class="row">
+                                  
+              <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    
+                              <li>
+                                <a href="/web/vevan-start.html">
+                                  开始鼓捣自己的博客了，算是记录自己的一些成长了吧!
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/python/python-start.html">
+                                  python 相关
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/hadoop/hive-start.html">
+                                  Hadoop 命令
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/sqoop/sqoop-start.html">
+                                  Sqoop详解
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/mac/mac-start.html">
+                                  mac 命令
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/hadoop/hadoop-start2.html">
+                                  Hadoop 命令
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/hadoop/hadoop-start1.html">
+                                  Hadoop 命令
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/hadoop/hadoop-start.html">
+                                  Hadoop 命令
+                                </a>
+                              </li>
+                     
+                </ul>
+              </div> 
+            </div>
+          </div>		  
+
+		     <!-- Blog Links Well -->
+          <div class="well">
+            <h4>
+              友情链接
+			  <div class="linkme">
+				<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=w7SqraWqsa6DsrLtoKyu" target="_blank">
+					<span class="linkme_span">交换链接</span>
+				</a>
+			  </div>
+            </h4>
+                        <ul class="list-unstyled">
+              <li>
+                <a href="https://github.com" rel="nofollow">
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a href="http://www.manongjc.com" target="_blank" rel="nofollow">
+                  码农教程
+                </a>
+              </li>	
+              <li>
+                <a href="http://www.youth168.com" target="_blank" rel="nofollow">
+                  青年励志网
+                </a>
+              </li>
+              <li>
+                <a href="http://xujinkai.info/" target="_blank" rel="nofollow"> 
+                  JK的博客
+                </a>
+              </li>				  
+            </ul>
+ 
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div style="text-align:center;margin-top:15px;">
+	Copyright &copy; https://wangfan0840.github.io/, generated by Jekyll, designed by <a href="https://wangfan0840.github.io/">Vevan</a>. <!--<a href="https://github.com/wangfan0840/wangfan0840.github.com">[source]</a>-->
+</div>
+ 
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </footer>
+    </div>
+    <!-- /.container -->
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ 
+  </body>
+</html>

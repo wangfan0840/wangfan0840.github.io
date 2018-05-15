@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://wangfan0840.github.io/atom.xml

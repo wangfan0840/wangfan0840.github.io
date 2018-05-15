@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="页面不存在：Page Not Found - vevan's Blog - 作者:wangfan0840"/> 
+    <meta name="description" content="Sqoop详解 - vevan's Blog - 作者:wangfan0840"/> 
 	
-    <title>页面不存在：Page Not Found - vevan's Blog</title>
+    <title>Sqoop详解 - vevan's Blog</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
@@ -119,14 +119,57 @@
       <div class="row">
         <!-- Blog Entries Column -->
         <div class="col-md-8">
-          <p align="center">
-<h1></h1>Page Not Found!</h1>
-Please wait...
-<br/>
-<br/>
-thanks!
-</p>
+          <!-- Navi -->
+<div class="post_frame">
+  <div class="post_navi">
+    <a href="/">首页</a>&nbsp;>&nbsp;
+    <span class="post_navi_span">Sqoop详解</span>
+  </div>
+  
+  <div style="padding:10px">
+    <h2 id="sqoop详解">Sqoop详解</h2>
+<ul>
+  <li><strong>探索尝试，发现未知可能！</strong></li>
+  <li><strong>走自己的路，让别人无路可走！</strong></li>
+</ul>
 
+<h2 id="1查询mysql中的数据库">1.查询mysql中的数据库</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sqoop list-databases --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306  --username cdb --password Gp30fTtj50blGXke  ## 2、连接mysql并列出数据库中的表
+sqoop list-tables --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb  --username cdb --password Gp30fTtj50blGXke   ## 3、导入数据到HDFS
+sqoop import --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb --username cdb --password Gp30fTtj50blGXke --table subject  --target-dir /data/up/student --num-mappers 1 ## 3、直接导入数据到HIVE
+
+sqoop import  --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb  --username cdb  --password Gp30fTtj50blGXke   --table student   --target-dir /data/up/subject   --num-mappers 1  --fields-terminated-by '\0001'  --delete-target-dir  --hive-import  --hive-overwrite  --hive-database default  --hive-table cdb_student --direct
+sqoop import  --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb  --username cdb  --password Gp30fTtj50blGXke   --table subject   --target-dir /data/up/subject   --num-mappers 1  --fields-terminated-by '\0001'  --delete-target-dir  --hive-import  --hive-overwrite  --hive-database default  --hive-table cdb_subject
+sqoop import  --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cms  --username cms  --password hdv6HZ3n0jq5bVNi   --table cms_good_course   --target-dir /data/up/cms_good_course   --num-mappers 1  --fields-terminated-by '\0001'  --delete-target-dir  --hive-import  --hive-overwrite  --hive-database default  --hive-table cms_good_course
+
+增加--direct会导致Error: java.io.IOException: mysqldump terminated with status 2 ## 4、增量导入到HIVE
+sqoop import  --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb  --username cdb  --password Gp30fTtj50blGXke   --table student   --target-dir /data/up/student   --num-mappers 1  --fields-terminated-by '\0001'   --hive-import     --hive-database default  --hive-table cdb_student  --incremental append  --check-column id --last-value 7335551
+sqoop import  --connect jdbc:mysql://drds1pouikzz3j49.drds.aliyuncs.com:3306/cdb  --username cdb  --password Gp30fTtj50blGXke   --table subject   --target-dir /data/up/subject   --num-mappers 1  --fields-terminated-by '\0001'   --hive-import     --hive-database default  --hive-table cdb_subject  --incremental append  --check-column id --last-value 1615
+</code></pre></div></div>
+
+  </div>
+
+  <!-- Blog Comments -->
+  <div class="media">
+      <div id="git_comment" style="margin:0px 10px"></div>
+  <script src="/comment/gitment.browser.js"></script>
+  <script>
+    var clientId = 'f43a2ab223f20dc0ad20'
+    var clientSecret = 'f31ae38f1040879c4b67698ca47b53b9b668f284'
+    var gitment = new Gitment({
+      id: window.location.pathname,
+      owner: 'panxw',
+      repo: 'gitment',
+      oauth: {
+        client_id: clientId,
+        client_secret: clientSecret,
+      },
+    })
+
+    gitment.render('git_comment')
+  </script> 
+  </div>
+</div>
         </div>
         <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
