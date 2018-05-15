@@ -1,0 +1,15 @@
+*.pyc
+sqoop/*.hide.md
+*.properties
+.idea
+.DS_Store
+.metadata
+.classpath
+.gitignore
+.project
+.settings/
+log/
+target/*
+*.iml
+!/hide/
+/_site/
