@@ -1,17 +1,20 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="归档 - vevan's Blog - 作者:wangfan0840"/> 
-	
-    <title>归档 - vevan's Blog</title>
+    <meta name="description" content=" - vevan's Blog" />
+
+    <title>栏目：git相关 - vevan's Blog</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
     <link href="/css/blog.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/comment/default.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
     queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://
@@ -31,7 +34,7 @@
   
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -120,90 +123,44 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
           <!-- Navi -->
-<div class="post_frame">
-  <div class="post_navi">
-    <a href="/">首页</a>&nbsp;>&nbsp;
-    <span class="post_navi_span">归档</span>
-  </div>
-  
-  <div style="padding:10px">
-    <ul class="list-unstyled">
-      
-	  
-    <h2>2018</h2> 
-	 
-    <li><h4><span>2018-05-10</span>&raquo;<a href="/web/web-nest.html">网页动态背景canvas-nest.js</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-10</span>&raquo;<a href="/git/git-base.html">网页动态背景canvas-nest.js</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/web/vevan-start.html">开始鼓捣自己的博客了，算是记录自己的一些成长了吧!</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/python/python-start.html">python 相关</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/hadoop/hive-start.html">Hadoop 命令</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/sqoop/sqoop-start.html">Sqoop详解</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/mac/mac-start.html">mac 命令</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/hadoop/hadoop-start2.html">Hadoop 命令</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/hadoop/hadoop-start1.html">Hadoop 命令</a></h4></li> 
-	 
-	    
-	 
-	 
-    <li><h4><span>2018-05-03</span>&raquo;<a href="/hadoop/hadoop-start.html">Hadoop 命令</a></h4></li> 
-	 
-</ul>
+          <div class="post_frame">
+            <div class="post_navi">
+              <a href="/">首页</a>&nbsp;>&nbsp;
+              <a href="">git相关</a>&nbsp;>&nbsp;
+              <span class="post_navi_span">列表</span>
+            </div>
+            <div style="padding:10px">
+<!-- Loop output paged posts -->
 
-  </div>
 
-  <!-- Blog Comments -->
-  <div class="media">
-      <div id="git_comment" style="margin:0px 10px"></div>
-  <script src="/comment/gitment.browser.js"></script>
-  <script>
-    var clientId = 'f43a2ab223f20dc0ad20'
-    var clientSecret = 'f31ae38f1040879c4b67698ca47b53b9b668f284'
-    var gitment = new Gitment({
-      id: window.location.pathname,
-      owner: 'panxw',
-      repo: 'gitment',
-      oauth: {
-        client_id: clientId,
-        client_secret: clientSecret,
-      },
-    })
-
-    gitment.render('git_comment')
-  </script> 
+<h2>
+  <a href="/git/git-base.html">
+    网页动态背景canvas-nest.js
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-10
   </div>
+</h2>
+<hr>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 查看项目的分支们</span>
+git branch <span class="nt">-a</span>
+<span class="c"># 删除本地分支</span>
+git branch <span class="nt">-d</span> &lt;BranchName&gt;
+<span class="c"># 删除远程分支 </span>
+git push origin <span class="nt">--delete</span> &lt;BranchName&gt;
+</code></pre></div></div>
+
+	<p><h3><a href="/git/git-base.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+
+<!-- Pager indicator -->
+<div style="margin:0px auto;text-align: center">
+
 </div>
+            </div>
+          </div>
         </div>
         <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
@@ -259,7 +216,7 @@
 </script> 
           </div>
 
-		      <!-- Blog Recent Well -->
+		     <!-- Blog Recent Well -->
           <div class="well">
             <h4>
               最新文章
@@ -268,11 +225,18 @@
                                   
               <div class="col-lg-12">
                 <ul class="list-unstyled">
+                    
+                              <li>
+                                <a href="/git/git-base.html">
+                                  网页动态背景canvas-nest.js
+                                </a>
+                              </li>
                      
                 </ul>
               </div> 
             </div>
-          </div>
+          </div>		  
+
         </div>
       </div>
       <!-- /.row -->
@@ -295,5 +259,4 @@
     <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
  
   </body>
-
 </html>
