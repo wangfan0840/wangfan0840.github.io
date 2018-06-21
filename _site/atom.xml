@@ -4,12 +4,26 @@
  <title></title>
  <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
  <link href="http://https://wangfan0840.github.io/"/>
- <updated>2018-06-21T23:48:14+08:00</updated>
+ <updated>2018-06-22T00:45:55+08:00</updated>
  <author>
    <name>wangfan0840</name>
    <email>wangfan0840#163.com</email>
  </author>
 
+ 
+ <entry>
+   <title>网页动态背景canvas-nest.js</title>
+   <link href="http://https://wangfan0840.github.io//web/web-nest.html"/>
+   <updated>2018-05-10T00:00:00+08:00</updated>
+   <id>/web/web-nest</id>
+   <content type="html">&lt;p&gt;#网页动态背景——随鼠标变换的动态线条canvas-nest.js&lt;/p&gt;
+
+&lt;p&gt;insert the code below between &amp;lt;body&amp;gt; and &amp;lt;/body&amp;gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>开始鼓捣自己的博客了，算是记录自己的一些成长了吧!</title>

@@ -28,11 +28,11 @@ title: "关于"
 
 支付宝:  
 <div style="width:220px">
-    <img width="220" height="220" src="/images/donate_alipay.jpg"/>
+    <img width="220" height="220" src="/images/donate_alipay.png"/>
 </div>
 微信:  
 <div style="width:220px">
-    <img width="220" height="220" src="/images/donate_weixin.jpg"/>
+    <img width="220" height="220" src="/images/donate_weixin.png"/>
 </div>
 
 google cloud!
