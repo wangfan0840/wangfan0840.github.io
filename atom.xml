@@ -4,12 +4,285 @@
  <title></title>
  <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
  <link href="http://https://wangfan0840.github.io/"/>
- <updated>2018-06-22T01:05:54+08:00</updated>
+ <updated>2018-07-30T14:29:21+08:00</updated>
  <author>
    <name>wangfan0840</name>
    <email>wangfan0840#163.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Markdown</title>
+   <link href="http://https://wangfan0840.github.io//markdown.html"/>
+   <updated>2018-05-20T00:00:00+08:00</updated>
+   <id>/markdown</id>
+   <content type="html">&lt;h1 id=&quot;欢迎使用markdown编辑器写博客&quot;&gt;欢迎使用Markdown编辑器写博客&lt;/h1&gt;
+
+&lt;p&gt;本Markdown编辑器使用&lt;a href=&quot;https://github.com/benweet/stackedit&quot;&gt;StackEdit&lt;/a&gt;修改而来，用它写博客，将会带来全新的体验哦：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Markdown和扩展Markdown简洁的语法&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;代码块高亮&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;图片链接和图片上传&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;LaTex&lt;/em&gt;数学公式&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;UML序列图和流程图&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;离线写博客&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;导入导出Markdown文件&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;丰富的快捷键&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;快捷键&quot;&gt;快捷键&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;加粗    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + B&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;斜体    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;引用    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Q&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;插入链接    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + L&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;插入代码    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + K&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;插入图片    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + G&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;提升标题    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + H&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;有序列表    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + O&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;无序列表    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + U&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;横线    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + R&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;撤销    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Z&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;重做    &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Y&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown及扩展&quot;&gt;Markdown及扩展&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— &lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot; target=&quot;_blank&quot;&gt; [ 维基百科 ]&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;使用简单的符号标识不同的标题，将某些文字标记为&lt;strong&gt;粗体&lt;/strong&gt;或者&lt;em&gt;斜体&lt;/em&gt;，创建一个&lt;a href=&quot;http://www.csdn.net&quot;&gt;链接&lt;/a&gt;等，详细语法参考帮助？。&lt;/p&gt;
+
+&lt;p&gt;本编辑器支持 &lt;strong&gt;Markdown Extra&lt;/strong&gt; , 　扩展了很多好用的功能。具体请参考&lt;a href=&quot;https://github.com/jmcmanus/pagedown-extra&quot; title=&quot;Pagedown Extra&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;表格&quot;&gt;表格&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown　Extra&lt;/strong&gt;　表格语法：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;价格&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Computer&lt;/td&gt;
+      &lt;td&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Phone&lt;/td&gt;
+      &lt;td&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pipe&lt;/td&gt;
+      &lt;td&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;可以使用冒号来定义对齐方式：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;项目&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;价格&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;数量&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Computer&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1600 元&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Phone&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;12 元&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Pipe&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1 元&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;234&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;###定义列表&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;strong&gt;Markdown　Extra&lt;/strong&gt;　定义列表语法：&lt;/dt&gt;
+  &lt;dt&gt;项目１&lt;/dt&gt;
+  &lt;dt&gt;项目２&lt;/dt&gt;
+  &lt;dd&gt;定义 A&lt;/dd&gt;
+  &lt;dd&gt;定义 B&lt;/dd&gt;
+  &lt;dt&gt;项目３&lt;/dt&gt;
+  &lt;dd&gt;定义 C&lt;/dd&gt;
+  &lt;dd&gt;
+    &lt;p&gt;定义 D&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;定义D内容&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;代码块&quot;&gt;代码块&lt;/h3&gt;
+&lt;p&gt;代码块语法遵循标准markdown代码，例如：&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@requires_authorization&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;somefunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'''A docstring'''&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# interesting&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Greater'&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SomeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'''interpreter
+... prompt'''&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;###脚注
+生成一个脚注[^footnote].
+  [^footnote]: 这里是 &lt;strong&gt;脚注&lt;/strong&gt; 的 &lt;em&gt;内容&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;目录&quot;&gt;目录&lt;/h3&gt;
+&lt;p&gt;用 &lt;code class=&quot;highlighter-rouge&quot;&gt;[TOC]&lt;/code&gt;来生成目录：&lt;/p&gt;
+
+&lt;p&gt;[TOC]&lt;/p&gt;
+
+&lt;h3 id=&quot;数学公式&quot;&gt;数学公式&lt;/h3&gt;
+&lt;p&gt;使用MathJax渲染&lt;em&gt;LaTex&lt;/em&gt; 数学公式，详见&lt;a href=&quot;http://math.stackexchange.com/&quot;&gt;math.stackexchange.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;行内公式，数学公式为：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。&lt;/li&gt;
+  &lt;li&gt;块级公式：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}&lt;/script&gt;
+
+&lt;p&gt;更多LaTex语法请参考 &lt;a href=&quot;http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference&quot;&gt;这儿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;uml-图&quot;&gt;UML 图:&lt;/h3&gt;
+
+&lt;p&gt;可以渲染序列图：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;张三-&amp;gt;李四: 嘿，小四儿, 写博客了没?
+Note right of 李四: 李四愣了一下，说：
+李四--&amp;gt;张三: 忙得吐血，哪有时间写。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;或者流程图：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: 开始
+e=&amp;gt;end: 结束
+op=&amp;gt;operation: 我的操作
+cond=&amp;gt;condition: 确认？
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关于 &lt;strong&gt;序列图&lt;/strong&gt; 语法，参考 &lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot;&gt;这儿&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;关于 &lt;strong&gt;流程图&lt;/strong&gt; 语法，参考 &lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot;&gt;这儿&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;离线写博客&quot;&gt;离线写博客&lt;/h2&gt;
+
+&lt;p&gt;即使用户在没有网络的情况下，也可以通过本编辑器离线写博客（直接在曾经使用过的浏览器中输入&lt;a href=&quot;http://write.blog.csdn.net/mdeditor&quot;&gt;write.blog.csdn.net/mdeditor&lt;/a&gt;即可。&lt;strong&gt;Markdown编辑器&lt;/strong&gt;使用浏览器离线存储将内容保存在本地。&lt;/p&gt;
+
+&lt;p&gt;用户写博客的过程中，内容实时保存在浏览器缓存中，在用户关闭浏览器或者其它异常情况下，内容不会丢失。用户再次打开浏览器时，会显示上次用户正在编辑的没有发表的内容。&lt;/p&gt;
+
+&lt;p&gt;博客发表后，本地缓存将被删除。　&lt;/p&gt;
+
+&lt;p&gt;用户可以选择 &lt;i class=&quot;icon-disk&quot;&gt;&lt;/i&gt; 把正在写的博客保存到服务器草稿箱，即使换浏览器或者清除缓存，内容也不会丢失。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;虽然浏览器存储大部分时候都比较可靠，但为了您的数据安全，在联网后，&lt;strong&gt;请务必及时发表或者保存到服务器草稿箱&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##浏览器兼容&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;目前，本编辑器对Chrome浏览器支持最为完整。建议大家使用较新版本的Chrome。&lt;/li&gt;
+  &lt;li&gt;IE９以下不支持&lt;/li&gt;
+  &lt;li&gt;IE９，１０，１１存在以下问题
+    &lt;ol&gt;
+      &lt;li&gt;不支持离线功能&lt;/li&gt;
+      &lt;li&gt;IE9不支持文件导入导出&lt;/li&gt;
+      &lt;li&gt;IE10不支持拖拽文件导入&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>vue</title>
+   <link href="http://https://wangfan0840.github.io//web/web-vue.html"/>
+   <updated>2018-05-12T00:00:00+08:00</updated>
+   <id>/web/web-vue</id>
+   <content type="html">&lt;p&gt;#vue-cli&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; vue-cli
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;vue init webpack my-project
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-project
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>收藏js</title>
+   <link href="http://https://wangfan0840.github.io//web/web-js.html"/>
+   <updated>2018-05-12T00:00:00+08:00</updated>
+   <id>/web/web-js</id>
+   <content type="html">&lt;p&gt;收藏一些比较常用的js
+在此备份分享…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 网页动态背景——随鼠标变换的动态线条canvas-nest.js
+&amp;lt;script src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+#
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;#常用js&lt;/p&gt;
+
+&lt;p&gt;##daterangepicker.js&lt;/p&gt;
+
+&lt;p&gt;##jsonFormater
+##hopscotch
+##jquery
+##jquery.cookie
+##echarts&lt;/p&gt;
+
+&lt;p&gt;##Lodash
+是一个一致性、模块化、高性能的 JavaScript 实用工具库&lt;/p&gt;
+
+&lt;p&gt;##jQuery Browser
+##bootstrap
+##bootstrap-table
+##bootstrap-tagsinput
+##bootstrap-multiselect
+##bootstrap-datetimepicker
+##canvas-nest.js
+##bootstrap-tagsinput
+##bootstrap-slider&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>网页动态背景canvas-nest.js</title>
@@ -90,7 +363,7 @@ git push origin &lt;span class=&quot;nt&quot;&gt;--delete&lt;/span&gt; &amp;lt;B
 &lt;/ul&gt;
 
 &lt;p&gt;##hive删除id为2的记录
- insert overwrite table A select * from A where id !=2;&lt;/p&gt;
+insert overwrite table A select * from A where id !=2;&lt;/p&gt;
 </content>
  </entry>
  
@@ -242,6 +515,520 @@ Comand+Shift+F9 重新编译文件
 	cmd + , 调出setting界面 
 	cmd + ; 调出项目setting界面 
 	cmd + f4 关闭当前界面&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Java程序员进阶指南</title>
+   <link href="http://https://wangfan0840.github.io//java/java-02.html"/>
+   <updated>2018-05-03T00:00:00+08:00</updated>
+   <id>/java/java-02</id>
+   <content type="html">&lt;h3 id=&quot;一基础篇&quot;&gt;一、基础篇&lt;/h3&gt;
+
+&lt;h4 id=&quot;jvm&quot;&gt;JVM&lt;/h4&gt;
+&lt;h5 id=&quot;jvm内存结构&quot;&gt;JVM内存结构&lt;/h5&gt;
+&lt;p&gt;堆、栈、方法区、直接内存、堆和栈区别 &lt;br /&gt;
+http://www.jcp.org/en/jsr/detail?id=133 &lt;br /&gt;
+http://ifeve.com/jmm-faq/&lt;/p&gt;
+
+&lt;h5 id=&quot;java内存模型&quot;&gt;Java内存模型&lt;/h5&gt;
+&lt;p&gt;内存可见性、重排序、顺序一致性、volatile、锁、final &lt;br /&gt;
+http://en.wikipedia.org/wiki/Memory_ordering &lt;br /&gt;
+http://en.wikipedia.org/wiki/Volatile_variable &lt;br /&gt;
+http://docs.oracle.com/javase/specs/jvms/se8/html/&lt;/p&gt;
+
+&lt;h5 id=&quot;垃圾回收&quot;&gt;垃圾回收&lt;/h5&gt;
+&lt;p&gt;内存分配策略、垃圾收集器（G1）、GC算法、GC参数、对象存活的判定&lt;/p&gt;
+
+&lt;h5 id=&quot;jvm参数及调优&quot;&gt;JVM参数及调优&lt;/h5&gt;
+&lt;p&gt;Java对象模型
+oop-klass、对象头&lt;/p&gt;
+
+&lt;p&gt;java诊断工具
+http://www.eclipse.org/mat/
+http://visualvm.java.net/oqlhelp.html&lt;/p&gt;
+
+&lt;h5 id=&quot;hotspot&quot;&gt;HotSpot&lt;/h5&gt;
+&lt;p&gt;即时编译器、编译优化&lt;/p&gt;
+
+&lt;h5 id=&quot;类加载机制&quot;&gt;类加载机制&lt;/h5&gt;
+&lt;p&gt;classLoader、类加载过程、双亲委派（破坏双亲委派）、模块化（jboss modules、osgi、jigsaw）&lt;/p&gt;
+
+&lt;h5 id=&quot;虚拟机性能监控与故障处理工具&quot;&gt;虚拟机性能监控与故障处理工具&lt;/h5&gt;
+&lt;p&gt;jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler &lt;br /&gt;
+http://kenai.com/projects/btrace &lt;br /&gt;
+http://www.crashub.org/ &lt;br /&gt;
+https://github.com/taobao/TProfiler&lt;br /&gt;
+https://github.com/CSUG/HouseMD &lt;br /&gt;
+http://wiki.cyclopsgroup.org/jmxterm&lt;br /&gt;
+https://github.com/jlusdy/TBJMap&lt;/p&gt;
+
+&lt;h4 id=&quot;编译与反编译&quot;&gt;编译与反编译&lt;/h4&gt;
+&lt;p&gt;javac 、javap 、jad 、CRF&lt;/p&gt;
+
+&lt;h4 id=&quot;java基础知识&quot;&gt;Java基础知识&lt;/h4&gt;
+&lt;p&gt;阅读源代码
+String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader &amp;amp; URLClassLoader、ArrayList &amp;amp; LinkedList、 HashMap &amp;amp; LinkedHashMap &amp;amp; TreeMap &amp;amp; CouncurrentHashMap、HashSet &amp;amp; LinkedHashSet &amp;amp; TreeSet&lt;/p&gt;
+
+&lt;h5 id=&quot;java中各种变量类型&quot;&gt;Java中各种变量类型&lt;/h5&gt;
+&lt;p&gt;熟悉Java String的使用，熟悉String的各种函数
+JDK 6和JDK 7中substring的原理及区别、&lt;/p&gt;
+
+&lt;p&gt;replaceFirst、replaceAll、replace区别、&lt;/p&gt;
+
+&lt;p&gt;String对“+”的重载、&lt;/p&gt;
+
+&lt;p&gt;String.valueOf和Integer.toString的区别、&lt;/p&gt;
+
+&lt;p&gt;字符串的不可变性&lt;/p&gt;
+
+&lt;h5 id=&quot;自动拆装箱&quot;&gt;自动拆装箱&lt;/h5&gt;
+&lt;p&gt;Integer的缓存机制&lt;/p&gt;
+
+&lt;h5 id=&quot;熟悉java中各种关键字&quot;&gt;熟悉Java中各种关键字&lt;/h5&gt;
+&lt;p&gt;transient、instanceof、volatile、synchronized、final、static、const 原理及用法。&lt;/p&gt;
+
+&lt;h5 id=&quot;集合类&quot;&gt;集合类&lt;/h5&gt;
+&lt;p&gt;常用集合类的使用&lt;/p&gt;
+
+&lt;p&gt;ArrayList和LinkedList和Vector的区别&lt;/p&gt;
+
+&lt;p&gt;SynchronizedList和Vector的区别&lt;/p&gt;
+
+&lt;p&gt;HashMap、HashTable、ConcurrentHashMap区别&lt;/p&gt;
+
+&lt;p&gt;Java 8中stream相关用法&lt;/p&gt;
+
+&lt;p&gt;apache集合处理工具类的使用&lt;/p&gt;
+
+&lt;p&gt;不同版本的JDK中HashMap的实现的区别以及原因&lt;/p&gt;
+
+&lt;h5 id=&quot;枚举&quot;&gt;枚举&lt;/h5&gt;
+&lt;p&gt;枚举的用法、枚举与单例、Enum类&lt;/p&gt;
+
+&lt;h5 id=&quot;java-iojava-nio并学会使用&quot;&gt;Java IO&amp;amp;Java NIO，并学会使用&lt;/h5&gt;
+&lt;p&gt;bio、nio和aio的区别、三种IO的用法与原理、netty&lt;/p&gt;
+
+&lt;h5 id=&quot;java反射与javassist&quot;&gt;Java反射与javassist&lt;/h5&gt;
+&lt;p&gt;反射与工厂模式、 java.lang.reflect.*&lt;/p&gt;
+
+&lt;h5 id=&quot;java序列化&quot;&gt;Java序列化&lt;/h5&gt;
+&lt;p&gt;什么是序列化与反序列化、为什么序列化&lt;/p&gt;
+
+&lt;h5 id=&quot;序列化底层原理&quot;&gt;序列化底层原理&lt;/h5&gt;
+
+&lt;p&gt;序列化与单例模式&lt;/p&gt;
+
+&lt;p&gt;protobuf&lt;/p&gt;
+
+&lt;p&gt;为什么说序列化并不安全&lt;/p&gt;
+
+&lt;h5 id=&quot;注解&quot;&gt;注解&lt;/h5&gt;
+&lt;p&gt;元注解、自定义注解、Java中常用注解使用、注解与反射的结合&lt;/p&gt;
+
+&lt;h5 id=&quot;jms&quot;&gt;JMS&lt;/h5&gt;
+&lt;p&gt;什么是Java消息服务、JMS消息传送模型&lt;/p&gt;
+
+&lt;p&gt;JMX
+java.lang.management.&lt;em&gt;、 javax.management.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;泛型
+泛型与继承&lt;/p&gt;
+
+&lt;h5 id=&quot;类型擦除&quot;&gt;类型擦除&lt;/h5&gt;
+
+&lt;p&gt;泛型中K T V E&lt;/p&gt;
+
+&lt;p&gt;object等的含义、泛型各种用法&lt;/p&gt;
+
+&lt;h5 id=&quot;单元测试&quot;&gt;单元测试&lt;/h5&gt;
+&lt;p&gt;junit、mock、mockito、内存数据库（h2）&lt;/p&gt;
+
+&lt;h5 id=&quot;正则表达式&quot;&gt;正则表达式&lt;/h5&gt;
+&lt;p&gt;java.lang.util.regex.*&lt;/p&gt;
+
+&lt;h5 id=&quot;常用的java工具库&quot;&gt;常用的Java工具库&lt;/h5&gt;
+&lt;p&gt;commons.lang, commons.*… guava-libraries netty &lt;br /&gt;
+http://commons.apache.org/ &lt;br /&gt;
+https://code.google.com/p/guava-libraries/&lt;/p&gt;
+
+&lt;h5 id=&quot;什么是apispi&quot;&gt;什么是API&amp;amp;SPI&lt;/h5&gt;
+&lt;p&gt;http://en.wikipedia.org/wiki/Application_programming_interface &lt;br /&gt;
+http://en.wikipedia.org/wiki/Service_provider_interface &lt;br /&gt;
+http://stackoverflow.com/questions/2954372/difference-between-spi-and-api &lt;br /&gt;
+http://stackoverflow.com/questions/11404230/how-to-implement-the-api-spi-pattern-in-java&lt;/p&gt;
+
+&lt;h5 id=&quot;异常&quot;&gt;异常&lt;/h5&gt;
+&lt;p&gt;异常类型、正确处理异常、自定义异常&lt;/p&gt;
+
+&lt;h5 id=&quot;时间处理&quot;&gt;时间处理&lt;/h5&gt;
+&lt;p&gt;时区、时令、Java中时间API&lt;/p&gt;
+
+&lt;h5 id=&quot;编码方式&quot;&gt;编码方式&lt;/h5&gt;
+&lt;p&gt;解决乱码问题、常用编码方式&lt;/p&gt;
+
+&lt;h5 id=&quot;语法糖&quot;&gt;语法糖&lt;/h5&gt;
+&lt;p&gt;Java中语法糖原理、解语法糖&lt;/p&gt;
+
+&lt;h4 id=&quot;java并发编程&quot;&gt;Java并发编程&lt;/h4&gt;
+&lt;h5 id=&quot;什么是线程与进程的区别&quot;&gt;什么是线程，与进程的区别&lt;/h5&gt;
+&lt;h5 id=&quot;阅读源代码并学会使用&quot;&gt;阅读源代码，并学会使用&lt;/h5&gt;
+&lt;p&gt;Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors&lt;/p&gt;
+
+&lt;h5 id=&quot;线程池&quot;&gt;线程池&lt;/h5&gt;
+&lt;p&gt;自己设计线程池、submit() 和 execute()&lt;/p&gt;
+
+&lt;h5 id=&quot;线程安全&quot;&gt;线程安全&lt;/h5&gt;
+&lt;p&gt;死锁、死锁如何排查、Java线程调度、线程安全和内存模型的关系&lt;/p&gt;
+
+&lt;h5 id=&quot;锁&quot;&gt;锁&lt;/h5&gt;
+&lt;p&gt;CAS、乐观锁与悲观锁、数据库相关锁机制、分布式锁、偏向锁、轻量级锁、重量级锁、monitor、锁优化、锁消除、锁粗化、自旋锁、可重入锁、阻塞锁、死锁&lt;/p&gt;
+
+&lt;h5 id=&quot;死锁&quot;&gt;死锁&lt;/h5&gt;
+&lt;h5 id=&quot;volatile&quot;&gt;volatile&lt;/h5&gt;
+&lt;p&gt;happens-before、编译器指令重排和CPU指令重&lt;/p&gt;
+
+&lt;h5 id=&quot;synchronized&quot;&gt;synchronized&lt;/h5&gt;
+&lt;p&gt;synchronized是如何实现的？&lt;/p&gt;
+
+&lt;p&gt;synchronized和lock之间关系&lt;/p&gt;
+
+&lt;p&gt;不使用synchronized如何实现一个线程安全的单例&lt;/p&gt;
+
+&lt;p&gt;sleep 和 wait &lt;br /&gt;
+wait 和 notify &lt;br /&gt;
+notify 和 notifyAll &lt;br /&gt;
+ThreadLocal &lt;br /&gt;
+写一个死锁的程序 &lt;br /&gt;
+写代码来解决生产者消费者问题 &lt;br /&gt;
+守护线程 &lt;br /&gt;
+守护线程和非守护线程的区别以及用法 &lt;br /&gt;
+推荐书籍《Java并发编程实战》&lt;/p&gt;
+
+&lt;h3 id=&quot;二-进阶篇&quot;&gt;二、 进阶篇&lt;/h3&gt;
+&lt;h4 id=&quot;java底层知识&quot;&gt;Java底层知识&lt;/h4&gt;
+&lt;h5 id=&quot;字节码class文件格式&quot;&gt;字节码、class文件格式&lt;/h5&gt;
+&lt;p&gt;http://en.wikipedia.org/wiki/Java_class_file  &lt;br /&gt;
+http://en.wikipedia.org/wiki/Java_bytecode  &lt;br /&gt;
+http://en.wikipedia.org/wiki/Java_bytecode_instruction_listings  &lt;br /&gt;
+http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/  &lt;br /&gt;
+http://asm.ow2.org/&lt;/p&gt;
+&lt;h5 id=&quot;cpu缓存l1l2l3和伪共享&quot;&gt;CPU缓存，L1，L2，L3和伪共享&lt;/h5&gt;
+&lt;p&gt;http://duartes.org/gustavo/blog/post/intel-cpu-caches/ &lt;br /&gt;
+http://mechanical-sympathy.blogspot.com/2011/07/false-sharing.html&lt;/p&gt;
+&lt;h5 id=&quot;尾递归&quot;&gt;尾递归&lt;/h5&gt;
+&lt;h5 id=&quot;位运算&quot;&gt;位运算&lt;/h5&gt;
+&lt;h5 id=&quot;用位运算实现加减乘除取余&quot;&gt;用位运算实现加、减、乘、除、取余&lt;/h5&gt;
+
+&lt;h4 id=&quot;设计模式&quot;&gt;设计模式&lt;/h4&gt;
+&lt;p&gt;了解23种设计模式 &lt;br /&gt;
+会使用常用设计模式 &lt;br /&gt;
+单例、策略、工厂、适配器、责任链。&lt;/p&gt;
+
+&lt;h5 id=&quot;实现aop&quot;&gt;实现AOP&lt;/h5&gt;
+&lt;p&gt;https://github.com/cglib/cglib&lt;/p&gt;
+&lt;h5 id=&quot;动态代理模式&quot;&gt;动态代理模式&lt;/h5&gt;
+&lt;p&gt;Javassist实现AOP &lt;br /&gt;
+http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/ &lt;br /&gt;
+ASM实现AOP &lt;br /&gt;
+http://asm.ow2.org/ &lt;br /&gt;
+实现IOC &lt;br /&gt;
+不用synchronized和lock，实现线程安全的单例模式 &lt;br /&gt;
+nio和reactor设计模式&lt;/p&gt;
+&lt;h4 id=&quot;网络编程&quot;&gt;网络编程&lt;/h4&gt;
+&lt;p&gt;tcp、udp、http、https等常用协议 &lt;br /&gt;
+三次握手与四次关闭、流量控制和拥塞控制、OSI七层模型、tcp粘包与拆包&lt;/p&gt;
+
+&lt;h5 id=&quot;http10-http11-http2之前的区别&quot;&gt;http/1.0 http/1.1 http/2之前的区别&lt;/h5&gt;
+&lt;p&gt;Java RMI，Socket，HttpClient
+cookie 与 session
+cookie被禁用，如何实现session&lt;/p&gt;
+
+&lt;h5 id=&quot;用java写一个简单的静态文件的http服务器&quot;&gt;用Java写一个简单的静态文件的HTTP服务器&lt;/h5&gt;
+&lt;p&gt;实现客户端缓存功能，支持返回304 实现可并发下载一个文件 使用线程池处理客户端请求 使用nio处理客户端请求 支持简单的rewrite规则 上述功能在实现的时候需要满足“开闭原则”&lt;/p&gt;
+
+&lt;h5 id=&quot;了解nginx和apache服务器的特性并搭建一个对应的服务器&quot;&gt;了解nginx和apache服务器的特性并搭建一个对应的服务器&lt;/h5&gt;
+&lt;p&gt;http://nginx.org/ &lt;br /&gt;
+http://httpd.apache.org/&lt;/p&gt;
+
+&lt;h5 id=&quot;用java实现ftpsmtp协议&quot;&gt;用Java实现FTP、SMTP协议&lt;/h5&gt;
+&lt;p&gt;http://www.ietf.org/rfc/rfc2616.txt &lt;br /&gt;
+http://tools.ietf.org/rfc/rfc5321.txt &lt;br /&gt;
+http://en.wikipedia.org/wiki/Open/closed_principle&lt;/p&gt;
+&lt;h5 id=&quot;进程间通讯的方式&quot;&gt;进程间通讯的方式&lt;/h5&gt;
+&lt;h5 id=&quot;什么是cdn如果实现&quot;&gt;什么是CDN？如果实现？&lt;/h5&gt;
+&lt;h5 id=&quot;什么是dns&quot;&gt;什么是DNS？&lt;/h5&gt;
+&lt;h5 id=&quot;反向代理&quot;&gt;反向代理&lt;/h5&gt;
+&lt;p&gt;http://www.squid-cache.org/ &lt;br /&gt;
+http://trafficserver.apache.org/ &lt;br /&gt;
+http://en.wikipedia.org/wiki/Domain_Name_System&lt;/p&gt;
+&lt;h4 id=&quot;框架知识&quot;&gt;框架知识&lt;/h4&gt;
+&lt;p&gt;Servlet线程安全问题 &lt;br /&gt;
+Servlet中的filter和listener &lt;br /&gt;
+Hibernate的缓存机制 &lt;br /&gt;
+Hiberate的懒加载 &lt;br /&gt;
+Mybatis原理和实现    &lt;br /&gt;
+Spring Bean的初始化 &lt;br /&gt;
+Spring的AOP原理 &lt;br /&gt;
+自己实现Spring的IOC &lt;br /&gt;
+Spring MVC &lt;br /&gt;
+Spring Boot2.0 &lt;br /&gt;
+Spring Boot的starter原理，自己实现一个starter&lt;/p&gt;
+
+&lt;p&gt;Spring Security&lt;/p&gt;
+&lt;h4 id=&quot;应用服务器&quot;&gt;应用服务器&lt;/h4&gt;
+&lt;p&gt;JBoss &lt;br /&gt;
+tomcat &lt;br /&gt;
+jetty &lt;br /&gt;
+Weblogic &lt;br /&gt;
+熟悉使用jboss，https://www.jboss.org/overview/ &lt;br /&gt;
+熟悉使用tomcat，http://tomcat.apache.org/ &lt;br /&gt;
+熟悉使用jetty，http://www.eclipse.org/jetty/&lt;/p&gt;
+&lt;h4 id=&quot;工具&quot;&gt;工具&lt;/h4&gt;
+&lt;p&gt;git &amp;amp; svn &lt;br /&gt;
+maven &amp;amp; gradle&lt;br /&gt;
+http://maven.apache.org/&lt;/p&gt;
+
+&lt;h3 id=&quot;三-高级篇&quot;&gt;三、 高级篇&lt;/h3&gt;
+&lt;h4 id=&quot;新技术&quot;&gt;新技术&lt;/h4&gt;
+&lt;h5 id=&quot;java-8&quot;&gt;Java 8&lt;/h5&gt;
+&lt;p&gt;lambda表达式、Stream API&lt;/p&gt;
+
+&lt;h5 id=&quot;java-9&quot;&gt;Java 9&lt;/h5&gt;
+&lt;p&gt;Jigsaw、Jshell、Reactive Streams&lt;/p&gt;
+
+&lt;h5 id=&quot;java-10&quot;&gt;Java 10&lt;/h5&gt;
+&lt;p&gt;局部变量类型推断、G1的并行Full GC、ThreadLocal握手机制&lt;/p&gt;
+
+&lt;h4 id=&quot;spring-5&quot;&gt;Spring 5&lt;/h4&gt;
+&lt;h5 id=&quot;响应式编程&quot;&gt;响应式编程&lt;/h5&gt;
+
+&lt;h4 id=&quot;spring-boot-20&quot;&gt;Spring Boot 2.0&lt;/h4&gt;
+&lt;h5 id=&quot;性能优化&quot;&gt;性能优化&lt;/h5&gt;
+&lt;p&gt;使用单例、使用Future模式、使用线程池、选择就绪、减少上下文切换、减少锁粒度、数据压缩、结果缓存&lt;/p&gt;
+
+&lt;h4 id=&quot;线上问题分析&quot;&gt;线上问题分析&lt;/h4&gt;
+&lt;h5 id=&quot;dump获取&quot;&gt;dump获取&lt;/h5&gt;
+&lt;p&gt;线程Dump、内存Dump、gc情况&lt;/p&gt;
+
+&lt;h5 id=&quot;dump分析&quot;&gt;dump分析&lt;/h5&gt;
+&lt;p&gt;分析死锁、分析内存泄露&lt;/p&gt;
+
+&lt;h5 id=&quot;自己编写各种outofmemorystackoverflow程序&quot;&gt;自己编写各种outofmemory，stackoverflow程序&lt;/h5&gt;
+&lt;p&gt;HeapOutOfMemory、 Young OutOfMemory、MethodArea OutOfMemory、ConstantPool OutOfMemory、DirectMemory OutOfMemory、Stack OutOfMemory Stack OverFlow&lt;/p&gt;
+
+&lt;h5 id=&quot;常见问题解决思路&quot;&gt;常见问题解决思路&lt;/h5&gt;
+&lt;p&gt;内存溢出、线程死锁、类加载冲突&lt;/p&gt;
+
+&lt;h5 id=&quot;使用工具尝试解决以下问题并写下总结&quot;&gt;使用工具尝试解决以下问题，并写下总结&lt;/h5&gt;
+&lt;p&gt;当一个Java程序响应很慢时如何查找问题、&lt;/p&gt;
+
+&lt;p&gt;当一个Java程序频繁FullGC时如何解决问题、&lt;/p&gt;
+
+&lt;p&gt;如何查看垃圾回收日志、&lt;/p&gt;
+
+&lt;p&gt;当一个Java应用发生OutOfMemory时该如何解决、&lt;/p&gt;
+
+&lt;p&gt;如何判断是否出现死锁、&lt;/p&gt;
+
+&lt;p&gt;如何判断是否存在内存泄露&lt;/p&gt;
+
+&lt;h4 id=&quot;编译原理知识&quot;&gt;编译原理知识&lt;/h4&gt;
+&lt;h5 id=&quot;编译与反编译-1&quot;&gt;编译与反编译&lt;/h5&gt;
+&lt;h5 id=&quot;java代码的编译与反编译&quot;&gt;Java代码的编译与反编译&lt;/h5&gt;
+&lt;h5 id=&quot;java的反编译工具&quot;&gt;Java的反编译工具&lt;/h5&gt;
+&lt;h5 id=&quot;词法分析语法分析ll算法递归下降算法lr算法语义分析运行时环境中间代码代码生成代码优化&quot;&gt;词法分析，语法分析（LL算法，递归下降算法，LR算法），语义分析，运行时环境，中间代码，代码生成，代码优化&lt;/h5&gt;
+&lt;h4 id=&quot;操作系统知识&quot;&gt;操作系统知识&lt;/h4&gt;
+&lt;h5 id=&quot;linux的常用命令&quot;&gt;Linux的常用命令&lt;/h5&gt;
+&lt;h5 id=&quot;进程同步&quot;&gt;进程同步&lt;/h5&gt;
+&lt;h5 id=&quot;缓冲区溢出&quot;&gt;缓冲区溢出&lt;/h5&gt;
+&lt;h5 id=&quot;分段和分页&quot;&gt;分段和分页&lt;/h5&gt;
+&lt;h5 id=&quot;虚拟内存与主存&quot;&gt;虚拟内存与主存&lt;/h5&gt;
+&lt;h4 id=&quot;数据库知识&quot;&gt;数据库知识&lt;/h4&gt;
+&lt;h5 id=&quot;mysql-执行引擎&quot;&gt;MySql 执行引擎&lt;/h5&gt;
+&lt;h5 id=&quot;mysql-执行计划&quot;&gt;MySQL 执行计划&lt;/h5&gt;
+&lt;p&gt;如何查看执行计划，如何根据执行计划进行SQL优化&lt;/p&gt;
+
+&lt;h5 id=&quot;sql优化&quot;&gt;SQL优化&lt;/h5&gt;
+&lt;h5 id=&quot;事务&quot;&gt;事务&lt;/h5&gt;
+&lt;p&gt;事务的隔离级别、事务能不能实现锁的功能&lt;/p&gt;
+
+&lt;h5 id=&quot;数据库锁&quot;&gt;数据库锁&lt;/h5&gt;
+&lt;p&gt;行锁、表锁、使用数据库锁实现乐观锁、&lt;/p&gt;
+
+&lt;h5 id=&quot;数据库主备搭建&quot;&gt;数据库主备搭建&lt;/h5&gt;
+&lt;h5 id=&quot;binlog&quot;&gt;binlog&lt;/h5&gt;
+&lt;h5 id=&quot;内存数据库&quot;&gt;内存数据库&lt;/h5&gt;
+&lt;p&gt;h2&lt;/p&gt;
+
+&lt;h5 id=&quot;常用的nosql数据库&quot;&gt;常用的nosql数据库&lt;/h5&gt;
+&lt;p&gt;redis、memcached&lt;/p&gt;
+
+&lt;h5 id=&quot;分别使用数据库锁nosql实现分布式锁&quot;&gt;分别使用数据库锁、NoSql实现分布式锁&lt;/h5&gt;
+&lt;h5 id=&quot;性能调优&quot;&gt;性能调优&lt;/h5&gt;
+&lt;h4 id=&quot;数据结构与算法知识&quot;&gt;数据结构与算法知识&lt;/h4&gt;
+&lt;h5 id=&quot;简单的数据结构&quot;&gt;简单的数据结构&lt;/h5&gt;
+&lt;p&gt;栈、队列、链表、数组、哈希表&lt;/p&gt;
+
+&lt;h5 id=&quot;树&quot;&gt;树&lt;/h5&gt;
+&lt;p&gt;二叉树、字典树、平衡树、排序树、B树、B+树、R树、多路树、红黑树&lt;/p&gt;
+
+&lt;h5 id=&quot;排序算法&quot;&gt;排序算法&lt;/h5&gt;
+&lt;p&gt;各种排序算法和时间复杂度 深度优先和广度优先搜索 全排列、贪心算法、KMP算法、hash算法、海量数据处理&lt;/p&gt;
+
+&lt;h4 id=&quot;大数据知识&quot;&gt;大数据知识&lt;/h4&gt;
+&lt;h5 id=&quot;zookeeper&quot;&gt;Zookeeper&lt;/h5&gt;
+&lt;p&gt;http://zookeeper.apache.org/ &lt;br /&gt;
+基本概念、常见用法&lt;/p&gt;
+
+&lt;h5 id=&quot;solrluceneelasticsearch&quot;&gt;Solr，Lucene，ElasticSearch&lt;/h5&gt;
+&lt;p&gt;在linux上部署solr，solrcloud，，新增、删除、查询索引 &lt;br /&gt;
+https://lucene.apache.org/solr/&lt;/p&gt;
+
+&lt;h5 id=&quot;storm流式计算了解sparks4&quot;&gt;Storm，流式计算，了解Spark，S4&lt;/h5&gt;
+&lt;p&gt;在linux上部署storm，用zookeeper做协调，运行storm hello world，local和remote模式运行调试storm topology。 &lt;br /&gt;
+https://github.com/nathanmarz/storm/wiki&lt;/p&gt;
+&lt;h5 id=&quot;hadoop离线计算&quot;&gt;Hadoop，离线计算&lt;/h5&gt;
+&lt;p&gt;http://hadoop.apache.org/ &lt;br /&gt;
+HDFS、MapReduce&lt;/p&gt;
+
+&lt;h5 id=&quot;分布式日志收集flumekafkalogstash&quot;&gt;分布式日志收集flume，kafka，logstash&lt;/h5&gt;
+&lt;p&gt;http://flume.apache.org/ &lt;br /&gt;
+http://logstash.net/ &lt;br /&gt;
+http://kafka.apache.org/&lt;/p&gt;
+&lt;h5 id=&quot;数据挖掘mahout&quot;&gt;数据挖掘，mahout&lt;/h5&gt;
+&lt;p&gt;http://mahout.apache.org/&lt;/p&gt;
+&lt;h4 id=&quot;网络安全知识&quot;&gt;网络安全知识&lt;/h4&gt;
+&lt;p&gt;http://en.wikipedia.org/wiki/Transport_Layer_Security&lt;/p&gt;
+&lt;h5 id=&quot;什么是xss&quot;&gt;什么是XSS&lt;/h5&gt;
+&lt;p&gt;XSS的防御&lt;/p&gt;
+
+&lt;h5 id=&quot;什么是csrf&quot;&gt;什么是CSRF&lt;/h5&gt;
+&lt;h5 id=&quot;什么是注入攻击&quot;&gt;什么是注入攻击&lt;/h5&gt;
+&lt;p&gt;SQL注入、XML注入、CRLF注入&lt;/p&gt;
+
+&lt;h5 id=&quot;什么是文件上传漏洞&quot;&gt;什么是文件上传漏洞&lt;/h5&gt;
+&lt;h5 id=&quot;加密与解密&quot;&gt;加密与解密&lt;/h5&gt;
+&lt;p&gt;MD5，SHA1、DES、AES、RSA、DSA &lt;br /&gt;
+http://en.wikipedia.org/wiki/Public-key_cryptography&lt;/p&gt;
+
+&lt;h5 id=&quot;什么是dos攻击和ddos攻击&quot;&gt;什么是DOS攻击和DDOS攻击&lt;/h5&gt;
+&lt;p&gt;memcached为什么可以导致DDos攻击、什么是反射型DDoS&lt;/p&gt;
+
+&lt;h5 id=&quot;ssltlshttps&quot;&gt;SSL、TLS，HTTPS&lt;/h5&gt;
+&lt;h5 id=&quot;如何通过hash碰撞进行dos攻击&quot;&gt;如何通过Hash碰撞进行DOS攻击&lt;/h5&gt;
+&lt;h5 id=&quot;用openssl签一个证书部署到apache或nginx&quot;&gt;用openssl签一个证书部署到apache或nginx&lt;/h5&gt;
+&lt;p&gt;https://code.google.com/p/google-authenticator/&lt;/p&gt;
+
+&lt;h3 id=&quot;四架构篇&quot;&gt;四、架构篇&lt;/h3&gt;
+&lt;h4 id=&quot;分布式&quot;&gt;分布式&lt;/h4&gt;
+&lt;h5 id=&quot;数据一致性服务治理服务降级&quot;&gt;数据一致性、服务治理、服务降级&lt;/h5&gt;
+
+&lt;h5 id=&quot;分布式事务&quot;&gt;分布式事务&lt;/h5&gt;
+&lt;p&gt;2PC、3PC、CAP、BASE、 可靠消息最终一致性、最大努力通知、TCC&lt;/p&gt;
+
+&lt;h5 id=&quot;dubbo&quot;&gt;Dubbo&lt;/h5&gt;
+&lt;p&gt;服务注册、服务发现，服务治理&lt;/p&gt;
+
+&lt;h5 id=&quot;分布式数据库&quot;&gt;分布式数据库&lt;/h5&gt;
+&lt;p&gt;怎样打造一个分布式数据库、什么时候需要分布式数据库、mycat、otter、HBase &lt;br /&gt;
+https://linuxcontainers.org/ &lt;br /&gt;
+http://www.linux-kvm.org/page/Main_Page &lt;br /&gt;
+http://www.xenproject.org/ &lt;br /&gt;
+https://www.docker.io/&lt;/p&gt;
+
+&lt;h5 id=&quot;分布式文件系统&quot;&gt;分布式文件系统&lt;/h5&gt;
+&lt;p&gt;mfs、fastdfs&lt;/p&gt;
+
+&lt;h5 id=&quot;分布式缓存&quot;&gt;分布式缓存&lt;/h5&gt;
+&lt;p&gt;缓存一致性、缓存命中率、缓存冗余&lt;/p&gt;
+
+&lt;h4 id=&quot;微服务&quot;&gt;微服务&lt;/h4&gt;
+&lt;h5 id=&quot;soa康威定律&quot;&gt;SOA、康威定律&lt;/h5&gt;
+
+&lt;h5 id=&quot;servicemesh&quot;&gt;ServiceMesh&lt;/h5&gt;
+&lt;h5 id=&quot;docker--kubernets&quot;&gt;Docker &amp;amp; Kubernets&lt;/h5&gt;
+&lt;h5 id=&quot;spring-boot&quot;&gt;Spring Boot&lt;/h5&gt;
+&lt;h5 id=&quot;spring-cloud&quot;&gt;Spring Cloud&lt;/h5&gt;
+&lt;h4 id=&quot;高并发&quot;&gt;高并发&lt;/h4&gt;
+&lt;h5 id=&quot;分库分表&quot;&gt;分库分表&lt;/h5&gt;
+&lt;h5 id=&quot;cdn技术&quot;&gt;CDN技术&lt;/h5&gt;
+&lt;h5 id=&quot;消息队列&quot;&gt;消息队列&lt;/h5&gt;
+&lt;h5 id=&quot;activemq&quot;&gt;ActiveMQ&lt;/h5&gt;
+
+&lt;h4 id=&quot;监控&quot;&gt;监控&lt;/h4&gt;
+&lt;p&gt;http://www.nagios.org/ &lt;br /&gt;
+http://ganglia.info/&lt;/p&gt;
+&lt;h5 id=&quot;监控什么&quot;&gt;监控什么&lt;/h5&gt;
+&lt;p&gt;CPU、内存、磁盘I/O、网络I/O等&lt;/p&gt;
+
+&lt;h5 id=&quot;监控手段&quot;&gt;监控手段&lt;/h5&gt;
+&lt;p&gt;进程监控、语义监控、机器资源监控、数据波动&lt;/p&gt;
+
+&lt;h5 id=&quot;监控数据采集&quot;&gt;监控数据采集&lt;/h5&gt;
+&lt;p&gt;日志、埋点&lt;/p&gt;
+
+&lt;h5 id=&quot;dapper&quot;&gt;Dapper&lt;/h5&gt;
+&lt;h4 id=&quot;负载均衡&quot;&gt;负载均衡&lt;/h4&gt;
+&lt;p&gt;http://www.linuxvirtualserver.org/ &lt;br /&gt;
+tomcat负载均衡、Nginx负载均衡&lt;/p&gt;
+
+&lt;h4 id=&quot;dns&quot;&gt;DNS&lt;/h4&gt;
+&lt;p&gt;DNS原理、DNS的设计&lt;/p&gt;
+
+&lt;h4 id=&quot;cdn&quot;&gt;CDN&lt;/h4&gt;
+&lt;p&gt;数据一致性&lt;/p&gt;
+
+&lt;h3 id=&quot;五-扩展篇&quot;&gt;五、 扩展篇&lt;/h3&gt;
+&lt;h4 id=&quot;云计算&quot;&gt;云计算&lt;/h4&gt;
+&lt;p&gt;IaaS、SaaS、PaaS、虚拟化技术、openstack、Serverlsess&lt;/p&gt;
+
+&lt;h4 id=&quot;搜索引擎&quot;&gt;搜索引擎&lt;/h4&gt;
+&lt;p&gt;Solr、Lucene、Nutch、Elasticsearch&lt;/p&gt;
+
+&lt;h4 id=&quot;权限管理&quot;&gt;权限管理&lt;/h4&gt;
+&lt;p&gt;Shiro&lt;/p&gt;
+
+&lt;h4 id=&quot;区块链&quot;&gt;区块链&lt;/h4&gt;
+&lt;p&gt;哈希算法、Merkle树、公钥密码算法、共识算法、Raft协议、Paxos 算法与 Raft 算法、拜占庭问题与算法、消息认证码与数字签名&lt;/p&gt;
+
+&lt;h5 id=&quot;比特币&quot;&gt;比特币&lt;/h5&gt;
+&lt;p&gt;挖矿、共识机制、闪电网络、侧链、热点问题、分叉&lt;/p&gt;
+
+&lt;h5 id=&quot;以太坊&quot;&gt;以太坊&lt;/h5&gt;
+&lt;h5 id=&quot;超级账本&quot;&gt;超级账本&lt;/h5&gt;
+&lt;h4 id=&quot;人工智能&quot;&gt;人工智能&lt;/h4&gt;
+&lt;p&gt;数学基础、机器学习、人工神经网络、深度学习、应用场景。&lt;/p&gt;
+
+&lt;h5 id=&quot;常用框架&quot;&gt;常用框架&lt;/h5&gt;
+&lt;p&gt;TensorFlow、DeepLearning4J&lt;/p&gt;
+
+&lt;h4 id=&quot;其他语言&quot;&gt;其他语言&lt;/h4&gt;
+&lt;p&gt;Groovy、Python、Go、NodeJs、Swift、Rust&lt;/p&gt;
+&lt;h3 id=&quot;六-推荐书籍&quot;&gt;六、 推荐书籍&lt;/h3&gt;
+&lt;p&gt;《深入理解Java虚拟机》&lt;/p&gt;
+
+&lt;p&gt;《Effective Java》&lt;/p&gt;
+
+&lt;p&gt;《深入分析Java Web技术内幕》&lt;/p&gt;
+
+&lt;p&gt;《大型网站技术架构》&lt;/p&gt;
+
+&lt;p&gt;《代码整洁之道》&lt;/p&gt;
+
+&lt;p&gt;《Head First设计模式》&lt;/p&gt;
+
+&lt;p&gt;《maven实战》&lt;/p&gt;
+
+&lt;p&gt;《区块链原理、设计与应用》&lt;/p&gt;
+
+&lt;p&gt;《Java并发编程实战》&lt;/p&gt;
+
+&lt;p&gt;《鸟哥的Linux私房菜》&lt;/p&gt;
+
+&lt;p&gt;《从Paxos到Zookeeper》&lt;/p&gt;
+
+&lt;p&gt;《架构即未来》&lt;/p&gt;
 </content>
  </entry>
  

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="探索尝试，发现未知可能！记录我学习使用Android/iOS开发、React Native、VPS、Linux、Web建站、Jekyll等技术过程中遇到的问题/解决办法，及一些个人心得总结。 - vevan's Blog" />
-    <title>Android/iOS/React Native/Web相关 - vevan's Blog</title>
+    <title>探索创新，出活 - vevan's Blog</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
@@ -138,6 +138,297 @@
 <!-- Loop output paged posts -->
 
 <h2>
+  <a href="/markdown.html">
+    Markdown
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-20
+  </div>
+</h2>
+<hr>
+<h1 id="欢迎使用markdown编辑器写博客">欢迎使用Markdown编辑器写博客</h1>
+
+<p>本Markdown编辑器使用<a href="https://github.com/benweet/stackedit">StackEdit</a>修改而来，用它写博客，将会带来全新的体验哦：</p>
+
+<ul>
+  <li><strong>Markdown和扩展Markdown简洁的语法</strong></li>
+  <li><strong>代码块高亮</strong></li>
+  <li><strong>图片链接和图片上传</strong></li>
+  <li><strong><em>LaTex</em>数学公式</strong></li>
+  <li><strong>UML序列图和流程图</strong></li>
+  <li><strong>离线写博客</strong></li>
+  <li><strong>导入导出Markdown文件</strong></li>
+  <li><strong>丰富的快捷键</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="快捷键">快捷键</h2>
+
+<ul>
+  <li>加粗    <code class="highlighter-rouge">Ctrl + B</code></li>
+  <li>斜体    <code class="highlighter-rouge">Ctrl + I</code></li>
+  <li>引用    <code class="highlighter-rouge">Ctrl + Q</code></li>
+  <li>插入链接    <code class="highlighter-rouge">Ctrl + L</code></li>
+  <li>插入代码    <code class="highlighter-rouge">Ctrl + K</code></li>
+  <li>插入图片    <code class="highlighter-rouge">Ctrl + G</code></li>
+  <li>提升标题    <code class="highlighter-rouge">Ctrl + H</code></li>
+  <li>有序列表    <code class="highlighter-rouge">Ctrl + O</code></li>
+  <li>无序列表    <code class="highlighter-rouge">Ctrl + U</code></li>
+  <li>横线    <code class="highlighter-rouge">Ctrl + R</code></li>
+  <li>撤销    <code class="highlighter-rouge">Ctrl + Z</code></li>
+  <li>重做    <code class="highlighter-rouge">Ctrl + Y</code></li>
+</ul>
+
+<h2 id="markdown及扩展">Markdown及扩展</h2>
+
+<blockquote>
+  <p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]</a></p>
+</blockquote>
+
+<p>使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a href="http://www.csdn.net">链接</a>等，详细语法参考帮助？。</p>
+
+<p>本编辑器支持 <strong>Markdown Extra</strong> , 　扩展了很多好用的功能。具体请参考<a href="https://github.com/jmcmanus/pagedown-extra" title="Pagedown Extra">Github</a>.</p>
+
+<h3 id="表格">表格</h3>
+
+<p><strong>Markdown　Extra</strong>　表格语法：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>项目</th>
+      <th>价格</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Computer</td>
+      <td>$1600</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>$12</td>
+    </tr>
+    <tr>
+      <td>Pipe</td>
+      <td>$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>可以使用冒号来定义对齐方式：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">项目</th>
+      <th style="text-align: right">价格</th>
+      <th style="text-align: center">数量</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Computer</td>
+      <td style="text-align: right">1600 元</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Phone</td>
+      <td style="text-align: right">12 元</td>
+      <td style="text-align: center">12</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Pipe</td>
+      <td style="text-align: right">1 元</td>
+      <td style="text-align: center">234</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>###定义列表</p>
+
+<dl>
+  <dt><strong>Markdown　Extra</strong>　定义列表语法：</dt>
+  <dt>项目１</dt>
+  <dt>项目２</dt>
+  <dd>定义 A</dd>
+  <dd>定义 B</dd>
+  <dt>项目３</dt>
+  <dd>定义 C</dd>
+  <dd>
+    <p>定义 D</p>
+
+    <blockquote>
+      <p>定义D内容</p>
+    </blockquote>
+  </dd>
+</dl>
+
+<h3 id="代码块">代码块</h3>
+<p>代码块语法遵循标准markdown代码，例如：</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@requires_authorization</span>
+<span class="k">def</span> <span class="nf">somefunc</span><span class="p">(</span><span class="n">param1</span><span class="o">=</span><span class="s">''</span><span class="p">,</span> <span class="n">param2</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="s">'''A docstring'''</span>
+    <span class="k">if</span> <span class="n">param1</span> <span class="o">&gt;</span> <span class="n">param2</span><span class="p">:</span> <span class="c"># interesting</span>
+        <span class="k">print</span> <span class="s">'Greater'</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">param2</span> <span class="o">-</span> <span class="n">param1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">or</span> <span class="bp">None</span>
+<span class="k">class</span> <span class="nc">SomeClass</span><span class="p">:</span>
+    <span class="k">pass</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="s">'''interpreter
+... prompt'''</span>
+</code></pre></div></div>
+
+<p>###脚注
+生成一个脚注[^footnote].
+  [^footnote]: 这里是 <strong>脚注</strong> 的 <em>内容</em>.</p>
+
+<h3 id="目录">目录</h3>
+<p>用 <code class="highlighter-rouge">[TOC]</code>来生成目录：</p>
+
+<p>[TOC]</p>
+
+<h3 id="数学公式">数学公式</h3>
+<p>使用MathJax渲染<em>LaTex</em> 数学公式，详见<a href="http://math.stackexchange.com/">math.stackexchange.com</a>.</p>
+
+<ul>
+  <li>行内公式，数学公式为：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。</li>
+  <li>块级公式：</li>
+</ul>
+
+<script type="math/tex; mode=display">x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}</script>
+
+<p>更多LaTex语法请参考 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">这儿</a>.</p>
+
+<h3 id="uml-图">UML 图:</h3>
+
+<p>可以渲染序列图：</p>
+
+<pre><code class="language-sequence">张三-&gt;李四: 嘿，小四儿, 写博客了没?
+Note right of 李四: 李四愣了一下，说：
+李四--&gt;张三: 忙得吐血，哪有时间写。
+</code></pre>
+
+<p>或者流程图：</p>
+
+<pre><code class="language-flow">st=&gt;start: 开始
+e=&gt;end: 结束
+op=&gt;operation: 我的操作
+cond=&gt;condition: 确认？
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+</code></pre>
+
+<ul>
+  <li>关于 <strong>序列图</strong> 语法，参考 <a href="http://bramp.github.io/js-sequence-diagrams/">这儿</a>,</li>
+  <li>关于 <strong>流程图</strong> 语法，参考 <a href="http://adrai.github.io/flowchart.js/">这儿</a>.</li>
+</ul>
+
+<h2 id="离线写博客">离线写博客</h2>
+
+<p>即使用户在没有网络的情况下，也可以通过本编辑器离线写博客（直接在曾经使用过的浏览器中输入<a href="http://write.blog.csdn.net/mdeditor">write.blog.csdn.net/mdeditor</a>即可。<strong>Markdown编辑器</strong>使用浏览器离线存储将内容保存在本地。</p>
+
+<p>用户写博客的过程中，内容实时保存在浏览器缓存中，在用户关闭浏览器或者其它异常情况下，内容不会丢失。用户再次打开浏览器时，会显示上次用户正在编辑的没有发表的内容。</p>
+
+<p>博客发表后，本地缓存将被删除。　</p>
+
+<p>用户可以选择 <i class="icon-disk"></i> 把正在写的博客保存到服务器草稿箱，即使换浏览器或者清除缓存，内容也不会丢失。</p>
+
+<blockquote>
+  <p><strong>注意：</strong>虽然浏览器存储大部分时候都比较可靠，但为了您的数据安全，在联网后，<strong>请务必及时发表或者保存到服务器草稿箱</strong>。</p>
+</blockquote>
+
+<p>##浏览器兼容</p>
+
+<ol>
+  <li>目前，本编辑器对Chrome浏览器支持最为完整。建议大家使用较新版本的Chrome。</li>
+  <li>IE９以下不支持</li>
+  <li>IE９，１０，１１存在以下问题
+    <ol>
+      <li>不支持离线功能</li>
+      <li>IE9不支持文件导入导出</li>
+      <li>IE10不支持拖拽文件导入</li>
+    </ol>
+  </li>
+</ol>
+
+<hr />
+
+
+	<p><h3><a href="/markdown.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/web/web-vue.html">
+    vue
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-12
+  </div>
+</h2>
+<hr>
+<p>#vue-cli</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm <span class="nb">install</span> <span class="nt">-g</span> vue-cli
+<span class="nv">$ </span>vue init webpack my-project
+<span class="nv">$ </span><span class="nb">cd </span>my-project
+<span class="nv">$ </span>npm <span class="nb">install</span>
+<span class="nv">$ </span>npm run dev
+</code></pre></div></div>
+
+
+	<p><h3><a href="/web/web-vue.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
+  <a href="/web/web-js.html">
+    收藏js
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2018-05-12
+  </div>
+</h2>
+<hr>
+<p>收藏一些比较常用的js
+在此备份分享…</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 网页动态背景——随鼠标变换的动态线条canvas-nest.js
+&lt;script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"&gt;&lt;/script&gt;
+#
+</code></pre></div></div>
+
+<p>#常用js</p>
+
+<p>##daterangepicker.js</p>
+
+<p>##jsonFormater
+##hopscotch
+##jquery
+##jquery.cookie
+##echarts</p>
+
+<p>##Lodash
+是一个一致性、模块化、高性能的 JavaScript 实用工具库</p>
+
+<p>##jQuery Browser
+##bootstrap
+##bootstrap-table
+##bootstrap-tagsinput
+##bootstrap-multiselect
+##bootstrap-datetimepicker
+##canvas-nest.js
+##bootstrap-tagsinput
+##bootstrap-slider</p>
+
+
+	<p><h3><a href="/web/web-js.html">阅读全文 &raquo;</a></h3></p>
+<hr>
+
+<h2>
   <a href="/web/web-nest.html">
     网页动态背景canvas-nest.js
   </a> 
@@ -241,7 +532,7 @@ git push origin <span class="nt">--delete</span> &lt;BranchName&gt;
 </ul>
 
 <p>##hive删除id为2的记录
- insert overwrite table A select * from A where id !=2;</p>
+insert overwrite table A select * from A where id !=2;</p>
 
 	<p><h3><a href="/hadoop/hive-start.html">阅读全文 &raquo;</a></h3></p>
 <hr>
@@ -306,96 +597,37 @@ sqoop list-tables --connect jdbc:mysql://localhost:3306/cdb --username root --pa
 	<p><h3><a href="/mac/mac-start.html">阅读全文 &raquo;</a></h3></p>
 <hr>
 
-<h2>
-  <a href="/hadoop/hadoop-start2.html">
-    Hadoop 命令
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	2018-05-03
-  </div>
-</h2>
-<hr>
-<h2 id="hadoop常用命令">Hadoop常用命令</h2>
-<ul>
-  <li><strong>走自己的路，让别人无路可走！</strong>
-    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
-    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
-    <p>hadoop fs -ls [uri形式目录]</p>
-    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
-    <p>hadoop fs cat URI [URI …]</p>
-    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
-    <p>hadoop fs -mkdir [uri形式目录]</p>
-    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
-    <h3 id="1-report">1）-report</h3>
-    <p>hdfs dfsadmin -report</p>
-  </li>
-</ul>
-
-	<p><h3><a href="/hadoop/hadoop-start2.html">阅读全文 &raquo;</a></h3></p>
-<hr>
-
-<h2>
-  <a href="/hadoop/hadoop-start1.html">
-    Hadoop 命令
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	2018-05-03
-  </div>
-</h2>
-<hr>
-<h2 id="hadoop常用命令">Hadoop常用命令</h2>
-<ul>
-  <li><strong>走自己的路，让别人无路可走！</strong>
-    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
-    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
-    <p>hadoop fs -ls [uri形式目录]</p>
-    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
-    <p>hadoop fs cat URI [URI …]</p>
-    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
-    <p>hadoop fs -mkdir [uri形式目录]</p>
-    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
-    <h3 id="1-report">1）-report</h3>
-    <p>hdfs dfsadmin -report</p>
-  </li>
-</ul>
-
-	<p><h3><a href="/hadoop/hadoop-start1.html">阅读全文 &raquo;</a></h3></p>
-<hr>
-
-<h2>
-  <a href="/hadoop/hadoop-start.html">
-    Hadoop 命令
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	2018-05-03
-  </div>
-</h2>
-<hr>
-<h2 id="hadoop常用命令">Hadoop常用命令</h2>
-<ul>
-  <li><strong>走自己的路，让别人无路可走！</strong>
-    <h2 id="1hadoop-fs-hdfs-dfs--文件操作">1.hadoop fs （hdfs dfs）  文件操作</h2>
-    <h3 id="1ls-显示目录">1）ls 显示目录</h3>
-    <p>hadoop fs -ls [uri形式目录]</p>
-    <h3 id="2-cat-查看文件内容">2） cat 查看文件内容</h3>
-    <p>hadoop fs cat URI [URI …]</p>
-    <h3 id="3-mkdir-创建目录">3） mkdir 创建目录</h3>
-    <p>hadoop fs -mkdir [uri形式目录]</p>
-    <h2 id="2hdfs-dfsadmin-管理命令">2、hdfs dfsadmin 管理命令</h2>
-    <h3 id="1-report">1）-report</h3>
-    <p>hdfs dfsadmin -report</p>
-  </li>
-</ul>
-
-	<p><h3><a href="/hadoop/hadoop-start.html">阅读全文 &raquo;</a></h3></p>
-<hr>
-
 
 <!-- Pager indicator -->
 <div style="margin:0px auto;text-align: center">
+
+<ul class="pagination">
+  
+  <li>
+    <span>&laquo; Prev</span>
+  </li>
+  
+
+  
+    
+    <li class="active">
+      <span>1</span>
+    </li>
+    
+  
+    
+    <li>
+      <a href="/index_2.html">2</a>
+    </li>
+    
+  
+
+  
+   <li>
+    <a href="/index_2.html">Next &raquo;</a>
+   </li>
+  
+</ul>
 
 </div>
             </div>
@@ -466,6 +698,24 @@ sqoop list-tables --connect jdbc:mysql://localhost:3306/cdb --username root --pa
                 <ul class="list-unstyled">
                     
                               <li>
+                                <a href="/markdown.html">
+                                  Markdown
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/web/web-vue.html">
+                                  vue
+                                </a>
+                              </li>
+                    
+                              <li>
+                                <a href="/web/web-js.html">
+                                  收藏js
+                                </a>
+                              </li>
+                    
+                              <li>
                                 <a href="/web/web-nest.html">
                                   网页动态背景canvas-nest.js
                                 </a>
@@ -508,19 +758,13 @@ sqoop list-tables --connect jdbc:mysql://localhost:3306/cdb --username root --pa
                               </li>
                     
                               <li>
+                                <a href="/java/java-02.html">
+                                  Java程序员进阶指南
+                                </a>
+                              </li>
+                    
+                              <li>
                                 <a href="/hadoop/hadoop-start2.html">
-                                  Hadoop 命令
-                                </a>
-                              </li>
-                    
-                              <li>
-                                <a href="/hadoop/hadoop-start1.html">
-                                  Hadoop 命令
-                                </a>
-                              </li>
-                    
-                              <li>
-                                <a href="/hadoop/hadoop-start.html">
                                   Hadoop 命令
                                 </a>
                               </li>
