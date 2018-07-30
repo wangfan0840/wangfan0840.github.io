@@ -18,5 +18,5 @@ tags: [Hadoop，命令]
 ### 1）-report
     hdfs dfsadmin -report 
     
- ##hive删除id为2的记录
- insert overwrite table A select * from A where id !=2;
+##hive删除id为2的记录
+insert overwrite table A select * from A where id !=2;

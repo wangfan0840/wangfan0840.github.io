@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=" - vevan's Blog" />
+    <title>标签：java - vevan's Blog</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link href="/css/blog.css" rel="stylesheet"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+    queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://
+    -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+      </script>
+    <![endif]-->
+        <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"> </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/tongji.js"></script>
+  </head>
+  
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand" href="/">
+            首页
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          		<ul class="nav navbar-nav">
+			
+				<li>
+				  <a href="/sqoop/index.html">
+					Sqoop相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/hadoop">
+					hadoop相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/mac">
+					mac相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/web">
+					Web相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/linux">
+					Linux相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/git">
+					git相关
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/other">
+					杂记
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/read">
+					书摘
+				  </a>
+				</li>
+			
+				<li>
+				  <a href="/about.html">
+					关于
+				  </a>
+				</li>
+			
+		</ul>  
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+          <!-- Navi -->
+          <div class="post_frame">
+            <div class="post_navi">
+              <a href="/">首页</a>&nbsp;>&nbsp;<a href="/tag/java.html">java</a>&nbsp;>&nbsp;
+              <span class="post_navi_span">列表</span>
+            </div>
+            <div style="padding:10px">
+				
+					<h2>
+					  <a href="/java/java-02.html">
+						Java程序员进阶指南
+					  </a> 
+					  <div class="post-date">
+						<span class="glyphicon glyphicon-time"></span>
+						2018-05-03
+					  </div>
+					</h2>
+					<hr>
+					<h3 id="一基础篇">一、基础篇</h3>
+
+<h4 id="jvm">JVM</h4>
+<h5 id="jvm内存结构">JVM内存结构</h5>
+<p>堆、栈、方法区、直接内存、堆和栈区别 <br />
+http://www.jcp.org/en/jsr/detail?id=133 <br />
+http://ifeve.com/jmm-faq/</p>
+
+<h5 id="java内存模型">Java内存模型</h5>
+<p>内存可见性、重排序、顺序一致性、volatile、锁、final <br />
+http://en.wikipedia.org/wiki/Memory_ordering <br />
+http://en.wikipedia.org/wiki/Volatile_variable <br />
+http://docs.oracle.com/javase/specs/jvms/se8/html/</p>
+
+<h5 id="垃圾回收">垃圾回收</h5>
+<p>内存分配策略、垃圾收集器（G1）、GC算法、GC参数、对象存活的判定</p>
+
+<h5 id="jvm参数及调优">JVM参数及调优</h5>
+<p>Java对象模型
+oop-klass、对象头</p>
+
+<p>java诊断工具
+http://www.eclipse.org/mat/
+http://visualvm.java.net/oqlhelp.html</p>
+
+<h5 id="hotspot">HotSpot</h5>
+<p>即时编译器、编译优化</p>
+
+<h5 id="类加载机制">类加载机制</h5>
+<p>classLoader、类加载过程、双亲委派（破坏双亲委派）、模块化（jboss modules、osgi、jigsaw）</p>
+
+<h5 id="虚拟机性能监控与故障处理工具">虚拟机性能监控与故障处理工具</h5>
+<p>jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler <br />
+http://kenai.com/projects/btrace <br />
+http://www.crashub.org/ <br />
+https://github.com/taobao/TProfiler<br />
+https://github.com/CSUG/HouseMD <br />
+http://wiki.cyclopsgroup.org/jmxterm<br />
+https://github.com/jlusdy/TBJMap</p>
+
+<h4 id="编译与反编译">编译与反编译</h4>
+<p>javac 、javap 、jad 、CRF</p>
+
+<h4 id="java基础知识">Java基础知识</h4>
+<p>阅读源代码
+String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader &amp; URLClassLoader、ArrayList &amp; LinkedList、 HashMap &amp; LinkedHashMap &amp; TreeMap &amp; CouncurrentHashMap、HashSet &amp; LinkedHashSet &amp; TreeSet</p>
+
+<h5 id="java中各种变量类型">Java中各种变量类型</h5>
+<p>熟悉Java String的使用，熟悉String的各种函数
+JDK 6和JDK 7中substring的原理及区别、</p>
+
+<p>replaceFirst、replaceAll、replace区别、</p>
+
+<p>String对“+”的重载、</p>
+
+<p>String.valueOf和Integer.toString的区别、</p>
+
+<p>字符串的不可变性</p>
+
+<h5 id="自动拆装箱">自动拆装箱</h5>
+<p>Integer的缓存机制</p>
+
+<h5 id="熟悉java中各种关键字">熟悉Java中各种关键字</h5>
+<p>transient、instanceof、volatile、synchronized、final、static、const 原理及用法。</p>
+
+<h5 id="集合类">集合类</h5>
+<p>常用集合类的使用</p>
+
+<p>ArrayList和LinkedList和Vector的区别</p>
+
+<p>SynchronizedList和Vector的区别</p>
+
+<p>HashMap、HashTable、ConcurrentHashMap区别</p>
+
+<p>Java 8中stream相关用法</p>
+
+<p>apache集合处理工具类的使用</p>
+
+<p>不同版本的JDK中HashMap的实现的区别以及原因</p>
+
+<h5 id="枚举">枚举</h5>
+<p>枚举的用法、枚举与单例、Enum类</p>
+
+<h5 id="java-iojava-nio并学会使用">Java IO&amp;Java NIO，并学会使用</h5>
+<p>bio、nio和aio的区别、三种IO的用法与原理、netty</p>
+
+<h5 id="java反射与javassist">Java反射与javassist</h5>
+<p>反射与工厂模式、 java.lang.reflect.*</p>
+
+<h5 id="java序列化">Java序列化</h5>
+<p>什么是序列化与反序列化、为什么序列化</p>
+
+<h5 id="序列化底层原理">序列化底层原理</h5>
+
+<p>序列化与单例模式</p>
+
+<p>protobuf</p>
+
+<p>为什么说序列化并不安全</p>
+
+<h5 id="注解">注解</h5>
+<p>元注解、自定义注解、Java中常用注解使用、注解与反射的结合</p>
+
+<h5 id="jms">JMS</h5>
+<p>什么是Java消息服务、JMS消息传送模型</p>
+
+<p>JMX
+java.lang.management.<em>、 javax.management.</em></p>
+
+<p>泛型
+泛型与继承</p>
+
+<h5 id="类型擦除">类型擦除</h5>
+
+<p>泛型中K T V E</p>
+
+<p>object等的含义、泛型各种用法</p>
+
+<h5 id="单元测试">单元测试</h5>
+<p>junit、mock、mockito、内存数据库（h2）</p>
+
+<h5 id="正则表达式">正则表达式</h5>
+<p>java.lang.util.regex.*</p>
+
+<h5 id="常用的java工具库">常用的Java工具库</h5>
+<p>commons.lang, commons.*… guava-libraries netty <br />
+http://commons.apache.org/ <br />
+https://code.google.com/p/guava-libraries/</p>
+
+<h5 id="什么是apispi">什么是API&amp;SPI</h5>
+<p>http://en.wikipedia.org/wiki/Application_programming_interface <br />
+http://en.wikipedia.org/wiki/Service_provider_interface <br />
+http://stackoverflow.com/questions/2954372/difference-between-spi-and-api <br />
+http://stackoverflow.com/questions/11404230/how-to-implement-the-api-spi-pattern-in-java</p>
+
+<h5 id="异常">异常</h5>
+<p>异常类型、正确处理异常、自定义异常</p>
+
+<h5 id="时间处理">时间处理</h5>
+<p>时区、时令、Java中时间API</p>
+
+<h5 id="编码方式">编码方式</h5>
+<p>解决乱码问题、常用编码方式</p>
+
+<h5 id="语法糖">语法糖</h5>
+<p>Java中语法糖原理、解语法糖</p>
+
+<h4 id="java并发编程">Java并发编程</h4>
+<h5 id="什么是线程与进程的区别">什么是线程，与进程的区别</h5>
+<h5 id="阅读源代码并学会使用">阅读源代码，并学会使用</h5>
+<p>Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors</p>
+
+<h5 id="线程池">线程池</h5>
+<p>自己设计线程池、submit() 和 execute()</p>
+
+<h5 id="线程安全">线程安全</h5>
+<p>死锁、死锁如何排查、Java线程调度、线程安全和内存模型的关系</p>
+
+<h5 id="锁">锁</h5>
+<p>CAS、乐观锁与悲观锁、数据库相关锁机制、分布式锁、偏向锁、轻量级锁、重量级锁、monitor、锁优化、锁消除、锁粗化、自旋锁、可重入锁、阻塞锁、死锁</p>
+
+<h5 id="死锁">死锁</h5>
+<h5 id="volatile">volatile</h5>
+<p>happens-before、编译器指令重排和CPU指令重</p>
+
+<h5 id="synchronized">synchronized</h5>
+<p>synchronized是如何实现的？</p>
+
+<p>synchronized和lock之间关系</p>
+
+<p>不使用synchronized如何实现一个线程安全的单例</p>
+
+<p>sleep 和 wait <br />
+wait 和 notify <br />
+notify 和 notifyAll <br />
+ThreadLocal <br />
+写一个死锁的程序 <br />
+写代码来解决生产者消费者问题 <br />
+守护线程 <br />
+守护线程和非守护线程的区别以及用法 <br />
+推荐书籍《Java并发编程实战》</p>
+
+<h3 id="二-进阶篇">二、 进阶篇</h3>
+<h4 id="java底层知识">Java底层知识</h4>
+<h5 id="字节码class文件格式">字节码、class文件格式</h5>
+<p>http://en.wikipedia.org/wiki/Java_class_file  <br />
+http://en.wikipedia.org/wiki/Java_bytecode  <br />
+http://en.wikipedia.org/wiki/Java_bytecode_instruction_listings  <br />
+http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/  <br />
+http://asm.ow2.org/</p>
+<h5 id="cpu缓存l1l2l3和伪共享">CPU缓存，L1，L2，L3和伪共享</h5>
+<p>http://duartes.org/gustavo/blog/post/intel-cpu-caches/ <br />
+http://mechanical-sympathy.blogspot.com/2011/07/false-sharing.html</p>
+<h5 id="尾递归">尾递归</h5>
+<h5 id="位运算">位运算</h5>
+<h5 id="用位运算实现加减乘除取余">用位运算实现加、减、乘、除、取余</h5>
+
+<h4 id="设计模式">设计模式</h4>
+<p>了解23种设计模式 <br />
+会使用常用设计模式 <br />
+单例、策略、工厂、适配器、责任链。</p>
+
+<h5 id="实现aop">实现AOP</h5>
+<p>https://github.com/cglib/cglib</p>
+<h5 id="动态代理模式">动态代理模式</h5>
+<p>Javassist实现AOP <br />
+http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/ <br />
+ASM实现AOP <br />
+http://asm.ow2.org/ <br />
+实现IOC <br />
+不用synchronized和lock，实现线程安全的单例模式 <br />
+nio和reactor设计模式</p>
+<h4 id="网络编程">网络编程</h4>
+<p>tcp、udp、http、https等常用协议 <br />
+三次握手与四次关闭、流量控制和拥塞控制、OSI七层模型、tcp粘包与拆包</p>
+
+<h5 id="http10-http11-http2之前的区别">http/1.0 http/1.1 http/2之前的区别</h5>
+<p>Java RMI，Socket，HttpClient
+cookie 与 session
+cookie被禁用，如何实现session</p>
+
+<h5 id="用java写一个简单的静态文件的http服务器">用Java写一个简单的静态文件的HTTP服务器</h5>
+<p>实现客户端缓存功能，支持返回304 实现可并发下载一个文件 使用线程池处理客户端请求 使用nio处理客户端请求 支持简单的rewrite规则 上述功能在实现的时候需要满足“开闭原则”</p>
+
+<h5 id="了解nginx和apache服务器的特性并搭建一个对应的服务器">了解nginx和apache服务器的特性并搭建一个对应的服务器</h5>
+<p>http://nginx.org/ <br />
+http://httpd.apache.org/</p>
+
+<h5 id="用java实现ftpsmtp协议">用Java实现FTP、SMTP协议</h5>
+<p>http://www.ietf.org/rfc/rfc2616.txt <br />
+http://tools.ietf.org/rfc/rfc5321.txt <br />
+http://en.wikipedia.org/wiki/Open/closed_principle</p>
+<h5 id="进程间通讯的方式">进程间通讯的方式</h5>
+<h5 id="什么是cdn如果实现">什么是CDN？如果实现？</h5>
+<h5 id="什么是dns">什么是DNS？</h5>
+<h5 id="反向代理">反向代理</h5>
+<p>http://www.squid-cache.org/ <br />
+http://trafficserver.apache.org/ <br />
+http://en.wikipedia.org/wiki/Domain_Name_System</p>
+<h4 id="框架知识">框架知识</h4>
+<p>Servlet线程安全问题 <br />
+Servlet中的filter和listener <br />
+Hibernate的缓存机制 <br />
+Hiberate的懒加载 <br />
+Mybatis原理和实现    <br />
+Spring Bean的初始化 <br />
+Spring的AOP原理 <br />
+自己实现Spring的IOC <br />
+Spring MVC <br />
+Spring Boot2.0 <br />
+Spring Boot的starter原理，自己实现一个starter</p>
+
+<p>Spring Security</p>
+<h4 id="应用服务器">应用服务器</h4>
+<p>JBoss <br />
+tomcat <br />
+jetty <br />
+Weblogic <br />
+熟悉使用jboss，https://www.jboss.org/overview/ <br />
+熟悉使用tomcat，http://tomcat.apache.org/ <br />
+熟悉使用jetty，http://www.eclipse.org/jetty/</p>
+<h4 id="工具">工具</h4>
+<p>git &amp; svn <br />
+maven &amp; gradle<br />
+http://maven.apache.org/</p>
+
+<h3 id="三-高级篇">三、 高级篇</h3>
+<h4 id="新技术">新技术</h4>
+<h5 id="java-8">Java 8</h5>
+<p>lambda表达式、Stream API</p>
+
+<h5 id="java-9">Java 9</h5>
+<p>Jigsaw、Jshell、Reactive Streams</p>
+
+<h5 id="java-10">Java 10</h5>
+<p>局部变量类型推断、G1的并行Full GC、ThreadLocal握手机制</p>
+
+<h4 id="spring-5">Spring 5</h4>
+<h5 id="响应式编程">响应式编程</h5>
+
+<h4 id="spring-boot-20">Spring Boot 2.0</h4>
+<h5 id="性能优化">性能优化</h5>
+<p>使用单例、使用Future模式、使用线程池、选择就绪、减少上下文切换、减少锁粒度、数据压缩、结果缓存</p>
+
+<h4 id="线上问题分析">线上问题分析</h4>
+<h5 id="dump获取">dump获取</h5>
+<p>线程Dump、内存Dump、gc情况</p>
+
+<h5 id="dump分析">dump分析</h5>
+<p>分析死锁、分析内存泄露</p>
+
+<h5 id="自己编写各种outofmemorystackoverflow程序">自己编写各种outofmemory，stackoverflow程序</h5>
+<p>HeapOutOfMemory、 Young OutOfMemory、MethodArea OutOfMemory、ConstantPool OutOfMemory、DirectMemory OutOfMemory、Stack OutOfMemory Stack OverFlow</p>
+
+<h5 id="常见问题解决思路">常见问题解决思路</h5>
+<p>内存溢出、线程死锁、类加载冲突</p>
+
+<h5 id="使用工具尝试解决以下问题并写下总结">使用工具尝试解决以下问题，并写下总结</h5>
+<p>当一个Java程序响应很慢时如何查找问题、</p>
+
+<p>当一个Java程序频繁FullGC时如何解决问题、</p>
+
+<p>如何查看垃圾回收日志、</p>
+
+<p>当一个Java应用发生OutOfMemory时该如何解决、</p>
+
+<p>如何判断是否出现死锁、</p>
+
+<p>如何判断是否存在内存泄露</p>
+
+<h4 id="编译原理知识">编译原理知识</h4>
+<h5 id="编译与反编译-1">编译与反编译</h5>
+<h5 id="java代码的编译与反编译">Java代码的编译与反编译</h5>
+<h5 id="java的反编译工具">Java的反编译工具</h5>
+<h5 id="词法分析语法分析ll算法递归下降算法lr算法语义分析运行时环境中间代码代码生成代码优化">词法分析，语法分析（LL算法，递归下降算法，LR算法），语义分析，运行时环境，中间代码，代码生成，代码优化</h5>
+<h4 id="操作系统知识">操作系统知识</h4>
+<h5 id="linux的常用命令">Linux的常用命令</h5>
+<h5 id="进程同步">进程同步</h5>
+<h5 id="缓冲区溢出">缓冲区溢出</h5>
+<h5 id="分段和分页">分段和分页</h5>
+<h5 id="虚拟内存与主存">虚拟内存与主存</h5>
+<h4 id="数据库知识">数据库知识</h4>
+<h5 id="mysql-执行引擎">MySql 执行引擎</h5>
+<h5 id="mysql-执行计划">MySQL 执行计划</h5>
+<p>如何查看执行计划，如何根据执行计划进行SQL优化</p>
+
+<h5 id="sql优化">SQL优化</h5>
+<h5 id="事务">事务</h5>
+<p>事务的隔离级别、事务能不能实现锁的功能</p>
+
+<h5 id="数据库锁">数据库锁</h5>
+<p>行锁、表锁、使用数据库锁实现乐观锁、</p>
+
+<h5 id="数据库主备搭建">数据库主备搭建</h5>
+<h5 id="binlog">binlog</h5>
+<h5 id="内存数据库">内存数据库</h5>
+<p>h2</p>
+
+<h5 id="常用的nosql数据库">常用的nosql数据库</h5>
+<p>redis、memcached</p>
+
+<h5 id="分别使用数据库锁nosql实现分布式锁">分别使用数据库锁、NoSql实现分布式锁</h5>
+<h5 id="性能调优">性能调优</h5>
+<h4 id="数据结构与算法知识">数据结构与算法知识</h4>
+<h5 id="简单的数据结构">简单的数据结构</h5>
+<p>栈、队列、链表、数组、哈希表</p>
+
+<h5 id="树">树</h5>
+<p>二叉树、字典树、平衡树、排序树、B树、B+树、R树、多路树、红黑树</p>
+
+<h5 id="排序算法">排序算法</h5>
+<p>各种排序算法和时间复杂度 深度优先和广度优先搜索 全排列、贪心算法、KMP算法、hash算法、海量数据处理</p>
+
+<h4 id="大数据知识">大数据知识</h4>
+<h5 id="zookeeper">Zookeeper</h5>
+<p>http://zookeeper.apache.org/ <br />
+基本概念、常见用法</p>
+
+<h5 id="solrluceneelasticsearch">Solr，Lucene，ElasticSearch</h5>
+<p>在linux上部署solr，solrcloud，，新增、删除、查询索引 <br />
+https://lucene.apache.org/solr/</p>
+
+<h5 id="storm流式计算了解sparks4">Storm，流式计算，了解Spark，S4</h5>
+<p>在linux上部署storm，用zookeeper做协调，运行storm hello world，local和remote模式运行调试storm topology。 <br />
+https://github.com/nathanmarz/storm/wiki</p>
+<h5 id="hadoop离线计算">Hadoop，离线计算</h5>
+<p>http://hadoop.apache.org/ <br />
+HDFS、MapReduce</p>
+
+<h5 id="分布式日志收集flumekafkalogstash">分布式日志收集flume，kafka，logstash</h5>
+<p>http://flume.apache.org/ <br />
+http://logstash.net/ <br />
+http://kafka.apache.org/</p>
+<h5 id="数据挖掘mahout">数据挖掘，mahout</h5>
+<p>http://mahout.apache.org/</p>
+<h4 id="网络安全知识">网络安全知识</h4>
+<p>http://en.wikipedia.org/wiki/Transport_Layer_Security</p>
+<h5 id="什么是xss">什么是XSS</h5>
+<p>XSS的防御</p>
+
+<h5 id="什么是csrf">什么是CSRF</h5>
+<h5 id="什么是注入攻击">什么是注入攻击</h5>
+<p>SQL注入、XML注入、CRLF注入</p>
+
+<h5 id="什么是文件上传漏洞">什么是文件上传漏洞</h5>
+<h5 id="加密与解密">加密与解密</h5>
+<p>MD5，SHA1、DES、AES、RSA、DSA <br />
+http://en.wikipedia.org/wiki/Public-key_cryptography</p>
+
+<h5 id="什么是dos攻击和ddos攻击">什么是DOS攻击和DDOS攻击</h5>
+<p>memcached为什么可以导致DDos攻击、什么是反射型DDoS</p>
+
+<h5 id="ssltlshttps">SSL、TLS，HTTPS</h5>
+<h5 id="如何通过hash碰撞进行dos攻击">如何通过Hash碰撞进行DOS攻击</h5>
+<h5 id="用openssl签一个证书部署到apache或nginx">用openssl签一个证书部署到apache或nginx</h5>
+<p>https://code.google.com/p/google-authenticator/</p>
+
+<h3 id="四架构篇">四、架构篇</h3>
+<h4 id="分布式">分布式</h4>
+<h5 id="数据一致性服务治理服务降级">数据一致性、服务治理、服务降级</h5>
+
+<h5 id="分布式事务">分布式事务</h5>
+<p>2PC、3PC、CAP、BASE、 可靠消息最终一致性、最大努力通知、TCC</p>
+
+<h5 id="dubbo">Dubbo</h5>
+<p>服务注册、服务发现，服务治理</p>
+
+<h5 id="分布式数据库">分布式数据库</h5>
+<p>怎样打造一个分布式数据库、什么时候需要分布式数据库、mycat、otter、HBase <br />
+https://linuxcontainers.org/ <br />
+http://www.linux-kvm.org/page/Main_Page <br />
+http://www.xenproject.org/ <br />
+https://www.docker.io/</p>
+
+<h5 id="分布式文件系统">分布式文件系统</h5>
+<p>mfs、fastdfs</p>
+
+<h5 id="分布式缓存">分布式缓存</h5>
+<p>缓存一致性、缓存命中率、缓存冗余</p>
+
+<h4 id="微服务">微服务</h4>
+<h5 id="soa康威定律">SOA、康威定律</h5>
+
+<h5 id="servicemesh">ServiceMesh</h5>
+<h5 id="docker--kubernets">Docker &amp; Kubernets</h5>
+<h5 id="spring-boot">Spring Boot</h5>
+<h5 id="spring-cloud">Spring Cloud</h5>
+<h4 id="高并发">高并发</h4>
+<h5 id="分库分表">分库分表</h5>
+<h5 id="cdn技术">CDN技术</h5>
+<h5 id="消息队列">消息队列</h5>
+<h5 id="activemq">ActiveMQ</h5>
+
+<h4 id="监控">监控</h4>
+<p>http://www.nagios.org/ <br />
+http://ganglia.info/</p>
+<h5 id="监控什么">监控什么</h5>
+<p>CPU、内存、磁盘I/O、网络I/O等</p>
+
+<h5 id="监控手段">监控手段</h5>
+<p>进程监控、语义监控、机器资源监控、数据波动</p>
+
+<h5 id="监控数据采集">监控数据采集</h5>
+<p>日志、埋点</p>
+
+<h5 id="dapper">Dapper</h5>
+<h4 id="负载均衡">负载均衡</h4>
+<p>http://www.linuxvirtualserver.org/ <br />
+tomcat负载均衡、Nginx负载均衡</p>
+
+<h4 id="dns">DNS</h4>
+<p>DNS原理、DNS的设计</p>
+
+<h4 id="cdn">CDN</h4>
+<p>数据一致性</p>
+
+<h3 id="五-扩展篇">五、 扩展篇</h3>
+<h4 id="云计算">云计算</h4>
+<p>IaaS、SaaS、PaaS、虚拟化技术、openstack、Serverlsess</p>
+
+<h4 id="搜索引擎">搜索引擎</h4>
+<p>Solr、Lucene、Nutch、Elasticsearch</p>
+
+<h4 id="权限管理">权限管理</h4>
+<p>Shiro</p>
+
+<h4 id="区块链">区块链</h4>
+<p>哈希算法、Merkle树、公钥密码算法、共识算法、Raft协议、Paxos 算法与 Raft 算法、拜占庭问题与算法、消息认证码与数字签名</p>
+
+<h5 id="比特币">比特币</h5>
+<p>挖矿、共识机制、闪电网络、侧链、热点问题、分叉</p>
+
+<h5 id="以太坊">以太坊</h5>
+<h5 id="超级账本">超级账本</h5>
+<h4 id="人工智能">人工智能</h4>
+<p>数学基础、机器学习、人工神经网络、深度学习、应用场景。</p>
+
+<h5 id="常用框架">常用框架</h5>
+<p>TensorFlow、DeepLearning4J</p>
+
+<h4 id="其他语言">其他语言</h4>
+<p>Groovy、Python、Go、NodeJs、Swift、Rust</p>
+<h3 id="六-推荐书籍">六、 推荐书籍</h3>
+<p>《深入理解Java虚拟机》</p>
+
+<p>《Effective Java》</p>
+
+<p>《深入分析Java Web技术内幕》</p>
+
+<p>《大型网站技术架构》</p>
+
+<p>《代码整洁之道》</p>
+
+<p>《Head First设计模式》</p>
+
+<p>《maven实战》</p>
+
+<p>《区块链原理、设计与应用》</p>
+
+<p>《Java并发编程实战》</p>
+
+<p>《鸟哥的Linux私房菜》</p>
+
+<p>《从Paxos到Zookeeper》</p>
+
+<p>《架构即未来》</p>
+
+						<p><h3><a href="/java/java-02.html">阅读全文 &raquo;</a></h3></p>
+					<hr>
+				
+            </div>
+          </div>
+        </div>
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Side Widget Well -->
+          <div class="well">
+            <h4>
+              推荐链接
+            </h4>
+			      <div class="row">
+                        <div class="col-lg-12">
+              <ul class="list-unstyled">
+              <li>
+                <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=mlv9dicn&productCode=dmspre&utm_source=mlv9dicn" target="_blank" rel="nofollow">
+                  阿里云幸运券购买服务，享实惠多多！
+                </a>
+              </li>
+              <li>
+                <a href="https://www.namesilo.com/register.php?rid=caa2f82dc" target="_blank"  rel="nofollow">
+                  NameSillo买域名就送隐私保护，还不贵!
+                </a>
+              </li>	
+              <li>
+                <a href="https://www.linode.com/?r=6a1d2020e95d84a5d1e6706a659499b1cc0f28bd" target="_blank" rel="nofollow">
+                  Linode高性能VPS，5$/月起，新开通送20$。
+                </a>
+              </li>	
+              <li>
+                <a href="https://bwh1.net/aff.php?aff=16961" target="_blank" rel="nofollow">
+                  带ss的班瓦工VPS，2.99$/月或19.9$/年起。
+                </a>
+              </li>	
+              <li>
+                <a href="http://www.vultr.com/?ref=6879661" target="_blank" rel="nofollow">
+                  VPS新秀Vultr，2.5$/月起，值得一试！
+                </a>
+              </li>			
+            </ul>
+          </div>
+ 
+            </div>
+          </div>
+
+          <!-- Side Widget Well -->
+          <div class="well-ad">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BlogRightB -->
+<ins class="adsbygoogle"
+	 style="display:inline-block;width:336px;height:280px"
+	 data-ad-client="ca-pub-8398931108301601"
+	 data-ad-slot="4042604803"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+          </div>
+
+		      <!-- Blog Recent Well -->
+          <div class="well">
+            <h4>
+              最新文章
+            </h4>
+            <div class="row">
+                                  
+              <div class="col-lg-12">
+                <ul class="list-unstyled">
+                     
+                </ul>
+              </div> 
+            </div>
+          </div>		  
+          
+		      <!-- Blog Links Well -->
+          <div class="well">
+            <h4>
+              友情链接
+            <div class="linkme">
+            <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=w7SqraWqsa6DsrLtoKyu" target="_blank">
+              <span class="linkme_span">交换链接</span>
+            </a>
+            </div>
+            </h4>
+                        <ul class="list-unstyled">
+              <li>
+                <a href="https://github.com" rel="nofollow">
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a href="http://www.manongjc.com" target="_blank" rel="nofollow">
+                  码农教程
+                </a>
+              </li>	
+              <li>
+                <a href="http://www.youth168.com" target="_blank" rel="nofollow">
+                  青年励志网
+                </a>
+              </li>
+              <li>
+                <a href="http://xujinkai.info/" target="_blank" rel="nofollow"> 
+                  JK的博客
+                </a>
+              </li>				  
+            </ul>
+ 
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div style="text-align:center;margin-top:15px;">
+	Copyright &copy; https://wangfan0840.github.io/, generated by Jekyll, designed by <a href="https://wangfan0840.github.io/">Vevan</a>. <!--<a href="https://github.com/wangfan0840/wangfan0840.github.com">[source]</a>-->
+</div>
+ 
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </footer>
+    </div>
+    <!-- /.container -->
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ 
+  </body>
+</html>
