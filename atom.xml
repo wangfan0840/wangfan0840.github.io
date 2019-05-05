@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
  <link href="http://https://wangfan0840.github.io/"/>
- <updated>2019-05-05T15:24:32+08:00</updated>
+ <updated>2019-05-05T16:53:08+08:00</updated>
  <author>
    <name>wangfan0840</name>
    <email>wangfan0840#163.com</email>
@@ -289,6 +289,7 @@ cond(no)-&amp;gt;op
    <updated>2018-05-12T00:00:00+08:00</updated>
    <id>/web/web-vue</id>
    <content type="html">&lt;p&gt;#vue-cli&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; vue-cli
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;vue init webpack my-project
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-project
