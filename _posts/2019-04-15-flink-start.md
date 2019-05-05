@@ -4,13 +4,13 @@ title: "flink"
 date: 2019-04-15
 category: flink
 tags: [flink，命令]
-https://flink-china.org/doc/quickstart/setup_quickstart.html
 ---
 ## flink详解
 - **走自己的路，让别人无路可走！**  
 
 
 ## Install
+https://flink-china.org/doc/quickstart/setup_quickstart.html
 ~~~
 $ brew install apache-flink
 $ flink --version

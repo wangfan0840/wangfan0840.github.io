@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
  <link href="http://https://wangfan0840.github.io/"/>
- <updated>2019-05-05T15:14:25+08:00</updated>
+ <updated>2019-05-05T15:15:24+08:00</updated>
  <author>
    <name>wangfan0840</name>
    <email>wangfan0840#163.com</email>
@@ -12,16 +12,17 @@
 
  
  <entry>
-   <title></title>
-   <link href="http://https://wangfan0840.github.io//2019-04-15-flink-start.html"/>
-   <updated>2019-05-05T15:14:25+08:00</updated>
-   <id>/2019-04-15-flink-start</id>
+   <title>flink</title>
+   <link href="http://https://wangfan0840.github.io//flink/flink-start.html"/>
+   <updated>2019-04-15T00:00:00+08:00</updated>
+   <id>/flink/flink-start</id>
    <content type="html">&lt;h2 id=&quot;flink详解&quot;&gt;flink详解&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;走自己的路，让别人无路可走！&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+&lt;p&gt;https://flink-china.org/doc/quickstart/setup_quickstart.html&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install apache-flink
 $ flink --version
 Version: 1.7.2, Commit ID: ceba8af
