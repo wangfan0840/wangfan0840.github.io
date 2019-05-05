@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://https://wangfan0840.github.io//atom.xml" rel="self"/>
  <link href="http://https://wangfan0840.github.io/"/>
- <updated>2019-05-05T15:21:10+08:00</updated>
+ <updated>2019-05-05T15:24:32+08:00</updated>
  <author>
    <name>wangfan0840</name>
    <email>wangfan0840#163.com</email>
@@ -373,11 +373,12 @@ git push origin &lt;span class=&quot;nt&quot;&gt;--delete&lt;/span&gt; &amp;lt;B
    <link href="http://https://wangfan0840.github.io//other/vevan-start.html"/>
    <updated>2018-05-03T08:01:01+08:00</updated>
    <id>/other/vevan-start</id>
-   <content type="html">&lt;p&gt;开始鼓捣自己的博客了，算是记录自己的一些成长了吧!&lt;!-- more --&gt;&lt;br /&gt;
-##告诫自己
-    以后每天记录一点点信息！
+   <content type="html">&lt;p&gt;开始鼓捣自己的博客了，算是记录自己的一些成长了吧!&lt;!-- more --&gt;&lt;/p&gt;
+&lt;h2 id=&quot;告诫自己&quot;&gt;告诫自己&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    以后每天记录一点点信息！
     脚踏实地，一步一个脚印！
-    每天都要比前一天强一些！&lt;/p&gt;
+    每天都要比前一天强一些！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </content>
  </entry>
