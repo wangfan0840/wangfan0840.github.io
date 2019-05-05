@@ -2,7 +2,7 @@
 layout: post
 title: "开始鼓捣自己的博客了，算是记录自己的一些成长了吧!"
 date: 2018-05-03 00:01:01
-category: web
+category: other
 tags: [开始]
 ---
 开始鼓捣自己的博客了，算是记录自己的一些成长了吧!<!-- more -->  
