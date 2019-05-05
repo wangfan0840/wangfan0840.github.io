@@ -7,7 +7,7 @@ title: "关于"
 
 
 ## 1.说明
-- 本博客基于Jekyll工具构建，模板代码公开。[(源码)](https://github.com/panxw/panxw.github.com)  
+- 本博客基于Jekyll工具构建，模板代码公开。[(源码)](https://github.com/wangfan0840/wangfan0840.github.io)  
 - 模板代码可任意使用，但请保留本站**友情链接**。  
 - 本站名称：Vevan's Blog  
 - 本站网址：https://wangfan0840.github.io/  
